@@ -1,0 +1,22 @@
+hotspot_id,cluster_id,name,area,centroid_lat,centroid_lon,accident_count,fatalities,injured,severity_level,dominant_cause,dominant_vehicle,peak_hour,risk_score,confidence_score
+HOTSPOT-MUM-006,5,Potential Accident Hotspot: Eastern Express Highway (Sion - Chembur),Sion-Chembur,19.045405,72.889872,75,23,132,CRITICAL,Drunk Driving,Heavy Commercial / Truck,19:00 - 20:00,67.1,0.98
+HOTSPOT-MUM-005,4,Potential Accident Hotspot: Sion Panvel Highway (Mankhurd - Vashi),Navi Mumbai Gateway,19.05312,72.935575,73,19,109,CRITICAL,Distraction,Heavy Commercial / Truck,0:00 - 01:00,66.2,0.98
+HOTSPOT-MUM-001,0,Potential Accident Hotspot: Western Express Highway (Bandra - Santacruz),Bandra West,19.062496,72.840585,120,24,314,CRITICAL,Speed Variation,Heavy Commercial / Truck,18:00 - 19:00,64.5,0.98
+HOTSPOT-MUM-012,11,Potential Accident Hotspot: Western Express Highway (Kandivali - Goregaon),Western Suburbs,19.172732,72.851838,132,21,353,CRITICAL,Speed Variation,Heavy Commercial / Truck,18:00 - 19:00,64.5,0.98
+HOTSPOT-MUM-003,2,Potential Accident Hotspot: Eastern Express Highway (Vikhroli - Ghatkopar),Eastern Suburbs,19.097753,72.914533,96,23,149,CRITICAL,Weather,Heavy Commercial / Truck,0:00 - 01:00,62.9,0.98
+HOTSPOT-MUM-009,8,Potential Accident Hotspot: Jogeshwari-Vikhroli Link Road (JVLR),Powai / Andheri East,19.12714,72.885474,69,20,103,CRITICAL,Distraction,Heavy Commercial / Truck,3:00 - 04:00,61.6,0.98
+HOTSPOT-MUM-007,6,Potential Accident Hotspot: Marine Drive Promenade / Netaji Subhash Road,South Mumbai,18.942289,72.822913,81,20,114,CRITICAL,Distraction,Two-Wheeler / Bike,19:00 - 20:00,60.4,0.98
+HOTSPOT-MUM-004,3,Potential Accident Hotspot: Lower Parel Commercial Hub / Senapati Bapat Marg,Lower Parel,19.006242,72.835733,262,56,631,CRITICAL,Speed Variation,Heavy Commercial / Truck,18:00 - 19:00,60.0,0.98
+HOTSPOT-MUM-002,1,Potential Accident Hotspot: Ghodbunder Road (Thane West),Thane West,19.260227,72.964718,82,19,129,CRITICAL,Drunk Driving,Heavy Commercial / Truck,18:00 - 19:00,59.2,0.98
+HOTSPOT-MUM-011,10,Potential Accident Hotspot: Swami Vivekanand (SV) Road (Andheri West),Andheri West,19.114832,72.841056,123,23,268,CRITICAL,Speed Variation,Heavy Commercial / Truck,18:00 - 19:00,59.1,0.98
+HOTSPOT-MUM-008,7,Potential Accident Hotspot: LBS Marg (Kurla - Ghatkopar),Kurla / Ghatkopar,19.07607,72.884308,170,30,243,CRITICAL,Poor Road,Heavy Commercial / Truck,2:00 - 03:00,57.8,0.98
+HOTSPOT-MUM-018,17,Potential Accident Hotspot: Western Express Highway (Kandivali - Goregaon),Western Suburbs,19.145351,72.845391,9,3,13,MEDIUM,Distraction,Heavy Commercial / Truck,0:00 - 01:00,54.0,0.84
+HOTSPOT-MUM-014,13,Potential Accident Hotspot: Sion Panvel Highway (Mankhurd - Vashi),Navi Mumbai Gateway,19.005604,72.989445,10,3,17,MEDIUM,Distraction,Heavy Commercial / Truck,12:00 - 13:00,52.0,0.85
+HOTSPOT-MUM-016,15,Potential Accident Hotspot: Western Express Highway (Kandivali - Goregaon),Western Suburbs,19.24005,72.799923,12,3,23,MEDIUM,Overspeeding,Heavy Commercial / Truck,15:00 - 16:00,49.5,0.87
+HOTSPOT-MUM-019,18,Potential Accident Hotspot: LBS Marg (Kurla - Ghatkopar),Kurla / Ghatkopar,19.103459,72.867005,10,3,11,MEDIUM,Weather,Heavy Commercial / Truck,16:00 - 17:00,45.0,0.85
+HOTSPOT-MUM-015,14,Potential Accident Hotspot: Marine Drive Promenade / Netaji Subhash Road,South Mumbai,18.863759,72.877738,13,4,18,MEDIUM,Drunk Driving,Heavy Commercial / Truck,13:00 - 14:00,44.0,0.88
+HOTSPOT-MUM-017,16,Potential Accident Hotspot: Jogeshwari-Vikhroli Link Road (JVLR),Powai / Andheri East,19.133534,72.86181,10,3,18,MEDIUM,Overspeeding,Heavy Commercial / Truck,11:00 - 12:00,42.0,0.85
+HOTSPOT-MUM-021,20,Potential Accident Hotspot: Ghodbunder Road (Thane West),Thane West,19.23414,72.993477,9,2,12,MEDIUM,Drunk Driving,Two-Wheeler / Bike,22:00 - 23:00,41.1,0.84
+HOTSPOT-MUM-013,12,Potential Accident Hotspot: Western Express Highway (Kandivali - Goregaon),Western Suburbs,19.179566,72.902557,8,2,8,MEDIUM,Distraction,Heavy Commercial / Truck,17:00 - 18:00,39.2,0.83
+HOTSPOT-MUM-010,9,Potential Accident Hotspot: Ghodbunder Road (Thane West),Thane West,19.295187,72.958304,10,3,16,MEDIUM,Distraction,Heavy Commercial / Truck,14:00 - 15:00,39.0,0.85
+HOTSPOT-MUM-020,19,Potential Accident Hotspot: Marine Drive Promenade / Netaji Subhash Road,South Mumbai,18.880072,72.961168,9,1,15,LOW,Overspeeding,Two-Wheeler / Bike,14:00 - 15:00,25.6,0.84

@@ -1,0 +1,9 @@
+State_UT_City,Year,Road_Classification,Total_Accidents,Persons_Injured,Persons_Died
+Mumbai,2023,Expressways,142,98,32
+Mumbai,2023,National Highways,384,286,89
+Mumbai,2023,State Highways,512,412,118
+Mumbai,2023,Other / Arterial Urban Roads,1826,1490,258
+Pune,2023,National Highways,420,340,105
+Pune,2023,State Highways,390,310,92
+Thane,2023,National Highways,310,260,78
+Nagpur,2023,National Highways,290,240,71

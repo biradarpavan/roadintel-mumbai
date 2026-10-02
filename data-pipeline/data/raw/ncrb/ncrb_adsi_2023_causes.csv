@@ -1,0 +1,7 @@
+State_UT_City,Year,Cause_Category,Cases_Reported,Persons_Injured,Persons_Died
+Mumbai,2023,Over-Speeding,1450,1180,245
+Mumbai,2023,Dangerous / Careless Driving,820,670,140
+Mumbai,2023,Driving Under Influence / Alcohol,140,115,32
+Mumbai,2023,Poor Weather / Visibility,230,190,38
+Mumbai,2023,Mechanical Defect / Brake Failure,110,95,22
+Mumbai,2023,Pedestrian / Jaywalking Conflict,114,36,20

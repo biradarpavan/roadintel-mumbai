@@ -1,0 +1,501 @@
+accident_id,city,state,latitude,longitude,date,time,hour,day_of_week,is_weekend,road_type,lanes,traffic_signal,weather,visibility,temperature,traffic_density,cause,accident_severity,vehicles_involved,casualties,is_peak_hour,festival,risk_score,severity
+0,Pune,Maharashtra,18.680827,73.930388,2023-10-22,5:00,5,Sunday,1,highway,3,1,fog,low,32,high,weather,fatal,2,2,0,,0.85,Fatal
+1,Mumbai,Maharashtra,18.817732,72.790846,2023-05-21,4:00,4,Sunday,1,urban,4,0,clear,high,34,low,weather,major,4,3,0,,0.1,Grievous/Major
+2,Mumbai,Maharashtra,19.096889,72.819424,2024-10-07,13:00,13,Wednesday,0,urban,3,0,fog,low,21,medium,weather,minor,1,1,0,,0.45,Minor
+3,Chandigarh,Punjab,30.787805,76.847507,2025-03-30,11:00,11,Sunday,1,urban,1,1,fog,low,30,high,distraction,minor,5,2,0,,0.65,Minor
+4,Chennai,Tamil Nadu,12.965155,80.283313,2024-01-25,16:00,16,Thursday,0,highway,3,1,clear,high,24,low,distraction,minor,2,1,0,,0.1,Minor
+5,Delhi,Delhi,28.79949,77.049666,2024-07-29,8:00,8,Monday,0,urban,5,1,clear,high,36,high,overspeeding,fatal,4,4,1,,0.65,Fatal
+6,Bangalore,Karnataka,13.064327,77.530941,2025-03-24,6:00,6,Monday,0,highway,3,0,clear,high,33,high,drunk driving,minor,4,4,0,,0.3,Minor
+7,Chandigarh,Punjab,30.786617,76.733947,2023-07-05,14:00,14,Sunday,1,urban,3,1,clear,high,25,low,weather,major,3,0,0,,0.1,Grievous/Major
+8,Hyderabad,Telangana,17.422447,78.464881,2022-02-25,3:00,3,Friday,0,urban,1,0,rain,low,22,low,poor road,minor,1,0,0,,0.45,Minor
+9,Bangalore,Karnataka,12.939033,77.498966,2024-03-31,4:00,4,Sunday,1,rural,3,1,clear,high,23,low,weather,minor,1,0,0,,0.1,Minor
+10,Chandigarh,Punjab,30.651926,76.876892,2022-03-23,13:00,13,Wednesday,0,highway,1,1,fog,low,34,medium,poor road,minor,3,3,0,,0.45,Minor
+11,Bangalore,Karnataka,12.936802,77.469957,2022-01-27,2:00,2,Thursday,0,urban,5,1,rain,medium,33,low,drunk driving,minor,2,0,0,,0.25,Minor
+12,Mumbai,Maharashtra,19.132036,72.76057,2023-11-28,9:00,9,Tuesday,0,highway,5,1,rain,low,17,medium,weather,major,4,1,1,,0.6,Grievous/Major
+13,Pune,Maharashtra,18.532452,73.841799,2024-03-25,8:00,8,Monday,0,highway,6,0,rain,low,40,medium,overspeeding,major,5,2,1,Holi,0.7,Grievous/Major
+14,Chandigarh,Punjab,30.721892,76.711388,2025-09-02,18:00,18,Sunday,1,urban,5,1,rain,medium,23,high,overspeeding,major,4,0,1,,0.6,Grievous/Major
+15,Chandigarh,Punjab,30.772308,76.768413,2024-03-18,8:00,8,Monday,0,rural,1,0,clear,high,23,high,drunk driving,minor,4,4,1,,0.45,Minor
+16,Hyderabad,Telangana,17.382285,78.551704,2023-03-08,11:00,11,Thursday,0,urban,6,0,rain,low,20,low,overspeeding,major,5,3,0,,0.45,Grievous/Major
+17,Chennai,Tamil Nadu,13.161404,80.197819,2023-09-26,21:00,21,Tuesday,0,urban,1,1,fog,low,30,medium,distraction,fatal,5,5,0,,0.65,Fatal
+18,Hyderabad,Telangana,17.570411,78.310647,2024-08-14,18:00,18,Wednesday,0,urban,4,1,fog,low,21,high,distraction,fatal,1,1,1,,1.0,Fatal
+19,Chandigarh,Punjab,30.629812,76.765481,2024-04-02,2:00,2,Sunday,1,urban,5,1,fog,low,36,low,poor road,minor,2,0,0,,0.45,Minor
+20,Kolkata,West Bengal,22.459848,88.361745,2022-04-11,1:00,1,Friday,0,highway,6,1,fog,low,30,low,drunk driving,fatal,5,5,0,,0.65,Fatal
+21,Kolkata,West Bengal,22.692541,88.209956,2023-09-12,0:00,0,Saturday,1,urban,3,0,fog,low,25,medium,weather,minor,4,1,0,,0.45,Minor
+22,Bangalore,Karnataka,12.911401,77.624696,2024-06-08,3:00,3,Tuesday,0,urban,1,0,rain,low,26,medium,distraction,major,3,1,0,,0.45,Grievous/Major
+23,Chennai,Tamil Nadu,12.98416,80.153974,2023-07-26,23:00,23,Wednesday,0,urban,2,0,clear,high,36,medium,distraction,minor,3,2,0,,0.1,Minor
+24,Delhi,Delhi,28.528171,77.003017,2023-03-26,1:00,1,Sunday,1,highway,5,1,clear,high,29,high,drunk driving,minor,3,2,0,,0.3,Minor
+25,Delhi,Delhi,28.631253,77.168852,2022-02-11,14:00,14,Wednesday,0,highway,4,0,rain,low,32,high,overspeeding,major,1,0,0,,0.65,Grievous/Major
+26,Chennai,Tamil Nadu,12.964354,80.262971,2024-11-10,13:00,13,Friday,0,urban,6,0,clear,high,39,high,weather,major,1,1,0,,0.3,Grievous/Major
+27,Chennai,Tamil Nadu,13.171632,80.200311,2023-05-09,5:00,5,Tuesday,0,highway,4,1,rain,medium,29,high,weather,minor,1,1,0,,0.45,Minor
+28,Mumbai,Maharashtra,18.876038,72.816062,2024-09-01,8:00,8,Tuesday,0,rural,3,1,rain,medium,28,high,overspeeding,minor,1,1,1,,0.6,Minor
+29,Delhi,Delhi,28.494878,77.089734,2025-08-04,17:00,17,Tuesday,0,urban,6,0,fog,low,17,high,drunk driving,minor,4,0,1,,0.8,Minor
+30,Bangalore,Karnataka,13.181455,77.704682,2023-05-21,17:00,17,Sunday,1,rural,3,1,clear,high,36,high,distraction,minor,1,1,1,,0.45,Minor
+31,Mumbai,Maharashtra,19.277812,72.889938,2024-12-31,7:00,7,Tuesday,0,rural,6,0,clear,high,24,low,poor road,minor,3,1,0,,0.1,Minor
+32,Kolkata,West Bengal,22.644485,88.376914,2024-11-10,7:00,7,Friday,0,urban,6,1,fog,low,18,low,overspeeding,minor,5,4,0,,0.45,Minor
+33,Bangalore,Karnataka,13.007483,77.745779,2023-09-10,3:00,3,Monday,0,highway,1,0,rain,medium,23,medium,drunk driving,minor,4,4,0,,0.25,Minor
+34,Delhi,Delhi,28.767686,77.102505,2022-02-06,17:00,17,Thursday,0,rural,1,1,fog,low,27,medium,poor road,minor,5,2,1,,0.6,Minor
+35,Chandigarh,Punjab,30.79305,76.864728,2023-12-21,4:00,4,Thursday,0,highway,6,0,clear,high,35,low,overspeeding,minor,5,1,0,,0.1,Minor
+36,Delhi,Delhi,28.513789,77.26605,2024-02-01,14:00,14,Tuesday,0,rural,6,1,fog,low,24,high,drunk driving,minor,1,0,0,,0.65,Minor
+37,Chennai,Tamil Nadu,12.941766,80.271836,2023-02-19,18:00,18,Sunday,1,highway,5,1,clear,high,32,low,weather,fatal,4,4,1,,0.45,Fatal
+38,Pune,Maharashtra,18.497326,73.919761,2023-04-12,6:00,6,Monday,0,rural,5,0,rain,medium,20,low,drunk driving,minor,2,1,0,,0.25,Minor
+39,Kolkata,West Bengal,22.568337,88.326718,2023-02-09,1:00,1,Saturday,1,rural,4,1,rain,medium,30,high,weather,minor,4,3,0,,0.45,Minor
+40,Mumbai,Maharashtra,18.945509,72.865677,2024-11-19,22:00,22,Tuesday,0,highway,5,1,rain,medium,40,high,distraction,minor,2,2,0,,0.45,Minor
+41,Chandigarh,Punjab,30.739178,76.722246,2023-07-21,9:00,9,Friday,0,urban,4,0,rain,medium,29,high,drunk driving,fatal,3,3,1,,0.8,Fatal
+42,Hyderabad,Telangana,17.36441,78.442288,2022-01-03,22:00,22,Tuesday,0,urban,4,1,rain,medium,20,medium,overspeeding,major,1,0,0,,0.25,Grievous/Major
+43,Chennai,Tamil Nadu,13.174093,80.150346,2025-01-13,13:00,13,Monday,0,highway,2,1,clear,high,20,low,weather,minor,1,1,0,,0.1,Minor
+44,Chandigarh,Punjab,30.75772,76.718682,2022-01-11,0:00,0,Tuesday,0,rural,3,1,rain,medium,26,low,drunk driving,major,2,2,0,,0.25,Grievous/Major
+45,Bangalore,Karnataka,13.032625,77.614829,2024-06-21,9:00,9,Friday,0,urban,2,1,rain,medium,21,high,distraction,minor,1,1,1,,0.6,Minor
+46,Chandigarh,Punjab,30.774779,76.862232,2025-11-04,11:00,11,Friday,0,urban,6,1,rain,low,31,low,poor road,major,4,4,0,,0.45,Grievous/Major
+47,Delhi,Delhi,28.683622,77.273941,2023-06-02,15:00,15,Monday,0,rural,2,1,rain,medium,16,medium,poor road,major,3,3,0,,0.25,Grievous/Major
+48,Hyderabad,Telangana,17.384544,78.420669,2022-05-23,14:00,14,Monday,0,highway,4,0,rain,low,22,high,weather,major,2,0,0,,0.65,Grievous/Major
+49,Hyderabad,Telangana,17.217784,78.280672,2024-12-23,13:00,13,Monday,0,rural,3,1,fog,low,31,medium,distraction,major,2,2,0,,0.45,Grievous/Major
+50,Pune,Maharashtra,18.482992,73.944129,2024-02-29,9:00,9,Thursday,0,highway,2,1,clear,high,32,high,overspeeding,major,3,1,1,,0.45,Grievous/Major
+51,Hyderabad,Telangana,17.224481,78.470636,2023-02-23,7:00,7,Thursday,0,rural,3,1,fog,low,17,medium,drunk driving,major,2,2,0,,0.45,Grievous/Major
+52,Bangalore,Karnataka,12.863932,77.797043,2024-07-21,2:00,2,Sunday,1,urban,4,0,fog,low,15,low,drunk driving,major,1,0,0,,0.45,Grievous/Major
+53,Mumbai,Maharashtra,19.090552,72.9844,2023-03-14,21:00,21,Tuesday,0,rural,1,1,rain,low,29,medium,poor road,minor,3,0,0,,0.45,Minor
+54,Chandigarh,Punjab,30.790067,76.805399,2024-09-30,3:00,3,Monday,0,highway,5,1,rain,low,25,low,weather,major,3,1,0,,0.45,Grievous/Major
+55,Delhi,Delhi,28.502883,77.165457,2022-11-17,6:00,6,Thursday,0,urban,5,1,fog,low,32,medium,drunk driving,minor,3,3,0,,0.45,Minor
+56,Chandigarh,Punjab,30.774233,76.72531,2023-07-09,0:00,0,Thursday,0,urban,3,0,clear,high,40,low,distraction,major,2,1,0,,0.1,Grievous/Major
+57,Mumbai,Maharashtra,19.232608,72.869852,2023-04-06,6:00,6,Sunday,1,urban,6,0,fog,low,21,medium,weather,major,2,1,0,,0.45,Grievous/Major
+58,Chennai,Tamil Nadu,12.959773,80.153419,2022-06-28,2:00,2,Tuesday,0,urban,1,0,clear,high,31,low,overspeeding,minor,1,0,0,,0.1,Minor
+59,Chennai,Tamil Nadu,12.985135,80.226248,2025-03-28,23:00,23,Friday,0,rural,2,0,rain,low,25,high,overspeeding,fatal,4,4,0,,0.85,Fatal
+60,Mumbai,Maharashtra,19.061169,72.872827,2024-04-17,14:00,14,Wednesday,0,urban,5,1,clear,high,19,low,poor road,minor,2,0,0,,0.1,Minor
+61,Delhi,Delhi,28.463133,76.976698,2024-12-31,9:00,9,Tuesday,0,rural,1,1,rain,medium,39,medium,distraction,major,1,0,1,,0.4,Grievous/Major
+62,Chennai,Tamil Nadu,12.852053,80.121615,2023-05-13,14:00,14,Saturday,1,urban,6,1,rain,medium,27,high,distraction,major,3,1,0,,0.45,Grievous/Major
+63,Chennai,Tamil Nadu,13.017299,80.224813,2024-02-04,0:00,0,Tuesday,0,rural,3,0,fog,low,26,low,overspeeding,major,4,1,0,,0.45,Grievous/Major
+64,Pune,Maharashtra,18.560997,73.811173,2024-08-17,23:00,23,Saturday,1,rural,2,1,fog,low,24,medium,drunk driving,major,2,2,0,,0.45,Grievous/Major
+65,Chennai,Tamil Nadu,12.97141,80.197487,2023-11-12,7:00,7,Monday,0,rural,4,1,rain,medium,18,high,drunk driving,major,1,0,0,,0.45,Grievous/Major
+66,Mumbai,Maharashtra,19.264702,72.886613,2022-09-22,10:00,10,Thursday,0,highway,1,1,clear,high,21,high,poor road,major,2,2,1,,0.45,Grievous/Major
+67,Mumbai,Maharashtra,18.811624,72.877651,2022-02-27,5:00,5,Sunday,1,rural,2,1,fog,low,17,high,drunk driving,minor,5,5,0,,0.65,Minor
+68,Chandigarh,Punjab,30.674067,76.774623,2024-04-23,21:00,21,Tuesday,0,rural,4,0,clear,high,36,high,distraction,major,3,1,0,,0.3,Grievous/Major
+69,Mumbai,Maharashtra,19.208566,72.896859,2023-05-26,6:00,6,Friday,0,highway,6,1,fog,low,34,low,poor road,major,1,1,0,,0.45,Grievous/Major
+70,Hyderabad,Telangana,17.530898,78.305176,2024-11-26,19:00,19,Tuesday,0,highway,2,1,fog,low,38,low,poor road,minor,3,3,1,,0.6,Minor
+71,Pune,Maharashtra,18.442448,73.878574,2024-03-03,14:00,14,Sunday,1,urban,4,0,fog,low,19,high,drunk driving,major,2,2,0,,0.65,Grievous/Major
+72,Delhi,Delhi,28.47365,77.060874,2023-03-24,11:00,11,Friday,0,highway,2,1,clear,high,21,high,weather,fatal,5,5,0,,0.5,Fatal
+73,Bangalore,Karnataka,12.984625,77.767823,2022-09-21,6:00,6,Wednesday,0,rural,1,1,rain,low,19,low,distraction,fatal,1,1,0,,0.65,Fatal
+74,Bangalore,Karnataka,12.954595,77.488507,2024-02-25,13:00,13,Sunday,1,highway,1,1,fog,low,29,medium,overspeeding,major,2,0,0,,0.45,Grievous/Major
+75,Chandigarh,Punjab,30.78901,76.887359,2022-02-05,19:00,19,Monday,0,urban,1,1,clear,high,23,high,weather,minor,4,0,1,,0.45,Minor
+76,Pune,Maharashtra,18.528017,73.850369,2023-05-09,6:00,6,Tuesday,0,urban,4,1,rain,low,39,low,poor road,minor,2,1,0,,0.45,Minor
+77,Pune,Maharashtra,18.549441,73.804096,2025-04-14,5:00,5,Monday,0,urban,4,1,fog,low,39,high,drunk driving,minor,2,0,0,,0.65,Minor
+78,Chennai,Tamil Nadu,12.919435,80.207627,2023-03-28,15:00,15,Tuesday,0,urban,2,1,fog,low,27,high,poor road,fatal,5,5,0,,0.85,Fatal
+79,Delhi,Delhi,28.813866,77.149528,2025-01-31,21:00,21,Friday,0,urban,6,1,fog,low,19,high,poor road,minor,3,1,0,,0.65,Minor
+80,Chandigarh,Punjab,30.658767,76.836989,2024-01-03,14:00,14,Friday,0,highway,6,0,rain,medium,36,medium,drunk driving,major,3,1,0,,0.25,Grievous/Major
+81,Pune,Maharashtra,18.499609,73.81264,2024-06-14,6:00,6,Friday,0,highway,2,0,rain,medium,37,medium,overspeeding,minor,3,0,0,,0.25,Minor
+82,Kolkata,West Bengal,22.641847,88.381884,2024-05-11,22:00,22,Tuesday,0,rural,1,1,fog,low,30,low,overspeeding,minor,1,0,0,,0.45,Minor
+83,Hyderabad,Telangana,17.386509,78.48781,2022-11-04,0:00,0,Monday,0,rural,1,1,rain,medium,38,low,weather,major,3,0,0,,0.25,Grievous/Major
+84,Hyderabad,Telangana,17.335804,78.271751,2023-04-21,3:00,3,Friday,0,urban,5,1,fog,low,40,low,weather,major,2,2,0,,0.45,Grievous/Major
+85,Chandigarh,Punjab,30.645926,76.791403,2025-01-23,17:00,17,Thursday,0,highway,2,0,fog,low,36,medium,weather,major,3,2,1,,0.6,Grievous/Major
+86,Chennai,Tamil Nadu,12.93952,80.153093,2023-07-12,14:00,14,Thursday,0,rural,2,1,rain,low,25,medium,overspeeding,minor,5,1,0,,0.45,Minor
+87,Hyderabad,Telangana,17.512138,78.471549,2024-04-24,6:00,6,Wednesday,0,highway,1,0,rain,low,30,low,poor road,minor,5,5,0,,0.45,Minor
+88,Mumbai,Maharashtra,18.803193,72.982741,2022-09-28,4:00,4,Wednesday,0,highway,3,0,fog,low,19,low,distraction,minor,5,4,0,,0.45,Minor
+89,Delhi,Delhi,28.838921,76.991482,2025-02-16,22:00,22,Sunday,1,highway,3,0,clear,high,24,high,distraction,minor,2,1,0,,0.3,Minor
+90,Hyderabad,Telangana,17.470165,78.472552,2022-09-24,2:00,2,Saturday,1,urban,3,1,rain,medium,20,medium,weather,major,1,1,0,,0.25,Grievous/Major
+91,Pune,Maharashtra,18.537548,73.723176,2022-10-14,23:00,23,Friday,0,rural,3,0,rain,medium,38,high,drunk driving,major,5,3,0,,0.45,Grievous/Major
+92,Bangalore,Karnataka,12.941515,77.674347,2024-11-14,5:00,5,Thursday,0,rural,6,0,fog,low,35,high,overspeeding,minor,3,1,0,,0.65,Minor
+93,Pune,Maharashtra,18.467712,73.954984,2025-03-14,9:00,9,Friday,0,rural,1,1,fog,low,18,high,poor road,minor,5,5,1,,0.8,Minor
+94,Hyderabad,Telangana,17.44697,78.449607,2023-09-19,18:00,18,Tuesday,0,urban,1,0,fog,low,19,high,overspeeding,minor,2,1,1,,0.8,Minor
+95,Mumbai,Maharashtra,19.250366,72.762997,2024-06-06,22:00,22,Thursday,0,urban,4,0,fog,low,35,medium,poor road,major,4,4,0,,0.45,Grievous/Major
+96,Kolkata,West Bengal,22.48522,88.321126,2022-05-09,2:00,2,Monday,0,rural,4,1,clear,high,37,low,overspeeding,minor,3,3,0,,0.1,Minor
+97,Chandigarh,Punjab,30.662289,76.860184,2024-03-08,7:00,7,Saturday,1,rural,4,0,clear,high,27,medium,weather,major,3,0,0,,0.1,Grievous/Major
+98,Pune,Maharashtra,18.687205,73.858717,2023-03-22,17:00,17,Wednesday,0,highway,4,0,clear,high,16,medium,distraction,major,4,4,1,,0.25,Grievous/Major
+99,Chandigarh,Punjab,30.729891,76.786151,2022-04-17,6:00,6,Sunday,1,highway,2,0,fog,low,34,low,drunk driving,minor,5,2,0,,0.45,Minor
+100,Chennai,Tamil Nadu,12.810721,80.19735,2023-05-08,18:00,18,Saturday,1,urban,2,1,fog,low,36,high,poor road,minor,4,2,1,,0.8,Minor
+101,Kolkata,West Bengal,22.537913,88.323836,2023-07-16,23:00,23,Sunday,1,highway,5,1,rain,low,40,high,distraction,minor,3,1,0,,0.65,Minor
+102,Bangalore,Karnataka,13.045999,77.520041,2023-04-24,12:00,12,Monday,0,urban,4,1,rain,medium,26,low,distraction,fatal,1,1,0,,0.45,Fatal
+103,Bangalore,Karnataka,12.848361,77.433807,2022-10-26,7:00,7,Wednesday,0,rural,2,0,clear,high,25,medium,drunk driving,major,1,0,0,,0.1,Grievous/Major
+104,Bangalore,Karnataka,13.057964,77.590444,2023-10-12,20:00,20,Sunday,1,highway,2,0,clear,high,40,medium,drunk driving,minor,4,0,0,,0.1,Minor
+105,Mumbai,Maharashtra,18.990602,72.799954,2024-09-12,20:00,20,Monday,0,highway,2,1,rain,low,23,low,drunk driving,major,1,0,0,,0.45,Grievous/Major
+106,Hyderabad,Telangana,17.426893,78.488724,2024-01-03,13:00,13,Friday,0,highway,4,1,fog,low,39,low,distraction,minor,5,1,0,,0.45,Minor
+107,Mumbai,Maharashtra,18.838523,72.976824,2023-11-22,22:00,22,Wednesday,0,rural,1,1,rain,medium,15,low,drunk driving,minor,5,1,0,,0.25,Minor
+108,Chennai,Tamil Nadu,13.10543,80.11737,2023-12-20,4:00,4,Wednesday,0,rural,6,0,clear,high,29,medium,weather,minor,2,1,0,,0.1,Minor
+109,Delhi,Delhi,28.519189,76.859451,2024-03-02,2:00,2,Saturday,1,rural,1,0,rain,low,27,high,poor road,minor,1,0,0,,0.65,Minor
+110,Bangalore,Karnataka,12.94701,77.785423,2024-11-19,16:00,16,Tuesday,0,rural,1,0,clear,high,34,low,distraction,minor,5,5,0,,0.1,Minor
+111,Hyderabad,Telangana,17.49119,78.27063,2025-02-15,8:00,8,Saturday,1,urban,4,0,rain,low,31,high,poor road,minor,3,0,1,,0.8,Minor
+112,Chennai,Tamil Nadu,12.812744,80.226751,2022-07-09,20:00,20,Wednesday,0,highway,2,0,fog,low,17,low,drunk driving,major,5,2,0,,0.45,Grievous/Major
+113,Chennai,Tamil Nadu,13.126298,80.273119,2024-07-07,9:00,9,Sunday,1,highway,6,1,clear,high,34,medium,overspeeding,major,4,1,1,,0.25,Grievous/Major
+114,Kolkata,West Bengal,22.686595,88.399393,2024-08-31,15:00,15,Saturday,1,rural,6,0,fog,low,31,medium,weather,fatal,1,1,0,,0.65,Fatal
+115,Hyderabad,Telangana,17.416162,78.471995,2022-12-02,11:00,11,Saturday,1,rural,4,1,rain,low,17,high,distraction,minor,3,1,0,,0.65,Minor
+116,Chennai,Tamil Nadu,12.829772,80.266893,2023-11-23,5:00,5,Thursday,0,rural,3,0,rain,low,24,high,overspeeding,minor,2,1,0,,0.65,Minor
+117,Chandigarh,Punjab,30.703228,76.745141,2022-04-20,22:00,22,Wednesday,0,highway,5,0,rain,low,36,high,drunk driving,minor,4,4,0,,0.65,Minor
+118,Pune,Maharashtra,18.671835,73.77906,2023-09-06,13:00,13,Friday,0,urban,3,0,rain,low,18,low,poor road,minor,1,1,0,,0.45,Minor
+119,Chandigarh,Punjab,30.780406,76.759015,2024-11-28,19:00,19,Thursday,0,rural,1,0,rain,medium,26,high,drunk driving,major,3,0,1,,0.6,Grievous/Major
+120,Bangalore,Karnataka,12.863873,77.573049,2023-06-23,14:00,14,Friday,0,rural,3,0,clear,high,20,high,drunk driving,major,4,0,0,,0.3,Grievous/Major
+121,Chandigarh,Punjab,30.612508,76.8941,2024-07-09,11:00,11,Saturday,1,highway,2,1,rain,medium,15,medium,drunk driving,minor,3,2,0,,0.25,Minor
+122,Pune,Maharashtra,18.613759,73.739609,2022-08-11,17:00,17,Tuesday,0,highway,5,0,clear,high,16,high,weather,major,4,1,1,,0.45,Grievous/Major
+123,Kolkata,West Bengal,22.615566,88.245733,2022-02-09,13:00,13,Friday,0,urban,4,1,clear,high,25,low,poor road,major,3,1,0,,0.1,Grievous/Major
+124,Chennai,Tamil Nadu,12.917829,80.107956,2022-09-09,0:00,0,Friday,0,highway,6,0,rain,medium,40,high,overspeeding,major,2,0,0,,0.45,Grievous/Major
+125,Chandigarh,Punjab,30.669447,76.798384,2024-07-14,13:00,13,Sunday,1,urban,5,1,fog,low,38,medium,weather,minor,4,3,0,,0.45,Minor
+126,Chennai,Tamil Nadu,13.023148,80.267046,2023-10-24,22:00,22,Tuesday,0,rural,4,0,clear,high,36,low,distraction,major,3,3,0,,0.1,Grievous/Major
+127,Hyderabad,Telangana,17.469395,78.426902,2022-12-06,23:00,23,Sunday,1,urban,1,0,rain,low,17,medium,poor road,major,3,1,0,,0.45,Grievous/Major
+128,Pune,Maharashtra,18.445959,73.866259,2022-05-12,13:00,13,Monday,0,rural,4,1,clear,high,20,medium,distraction,major,2,2,0,,0.1,Grievous/Major
+129,Bangalore,Karnataka,12.810804,77.644324,2023-12-04,15:00,15,Wednesday,0,highway,3,0,fog,low,31,low,weather,minor,1,1,0,,0.45,Minor
+130,Kolkata,West Bengal,22.605036,88.211938,2022-06-07,20:00,20,Wednesday,0,urban,5,1,rain,medium,22,medium,overspeeding,major,1,1,0,,0.25,Grievous/Major
+131,Chandigarh,Punjab,30.749547,76.70627,2024-01-17,5:00,5,Wednesday,0,urban,1,0,fog,low,24,high,poor road,minor,4,2,0,,0.65,Minor
+132,Delhi,Delhi,28.8028,76.835013,2022-06-27,15:00,15,Monday,0,highway,4,0,rain,medium,19,low,drunk driving,fatal,2,2,0,,0.45,Fatal
+133,Pune,Maharashtra,18.571932,73.724503,2025-01-21,3:00,3,Tuesday,0,highway,2,0,clear,high,31,low,drunk driving,major,3,0,0,,0.1,Grievous/Major
+134,Bangalore,Karnataka,12.913562,77.619006,2023-10-30,19:00,19,Monday,0,highway,3,0,rain,medium,34,medium,poor road,major,4,3,1,,0.4,Grievous/Major
+135,Chandigarh,Punjab,30.771578,76.798125,2023-09-24,20:00,20,Sunday,1,highway,3,1,rain,medium,25,high,weather,fatal,5,5,0,,0.65,Fatal
+136,Chennai,Tamil Nadu,12.910539,80.183088,2023-08-07,12:00,12,Saturday,1,highway,5,1,clear,high,28,high,poor road,minor,3,2,0,,0.3,Minor
+137,Hyderabad,Telangana,17.57514,78.484234,2023-07-23,0:00,0,Sunday,1,highway,5,0,rain,low,17,low,distraction,major,1,0,0,,0.45,Grievous/Major
+138,Pune,Maharashtra,18.697073,73.828047,2022-11-28,4:00,4,Monday,0,highway,2,0,clear,high,20,high,weather,minor,5,2,0,,0.3,Minor
+139,Mumbai,Maharashtra,19.257558,72.75368,2024-02-13,10:00,10,Tuesday,0,highway,3,1,fog,low,30,high,weather,major,3,0,1,,0.8,Grievous/Major
+140,Chennai,Tamil Nadu,13.099257,80.226182,2024-09-21,8:00,8,Saturday,1,urban,4,0,rain,low,32,high,poor road,major,1,0,1,,0.8,Grievous/Major
+141,Chandigarh,Punjab,30.612831,76.810119,2024-11-23,22:00,22,Saturday,1,highway,4,1,rain,medium,17,medium,drunk driving,minor,4,4,0,,0.25,Minor
+142,Bangalore,Karnataka,12.851488,77.589232,2024-10-22,21:00,21,Tuesday,0,urban,2,1,fog,low,36,high,drunk driving,minor,1,0,0,,0.65,Minor
+143,Kolkata,West Bengal,22.408139,88.322983,2023-12-27,21:00,21,Wednesday,0,rural,3,0,rain,medium,29,high,distraction,minor,1,0,0,,0.45,Minor
+144,Kolkata,West Bengal,22.470344,88.318475,2022-05-06,6:00,6,Sunday,1,urban,3,1,clear,high,38,medium,drunk driving,minor,3,3,0,,0.1,Minor
+145,Kolkata,West Bengal,22.672696,88.400666,2023-01-27,15:00,15,Friday,0,highway,2,0,clear,high,28,low,distraction,major,2,1,0,,0.1,Grievous/Major
+146,Chennai,Tamil Nadu,13.145041,80.133716,2022-06-05,7:00,7,Friday,0,highway,5,0,fog,low,15,high,weather,major,1,0,0,,0.65,Grievous/Major
+147,Kolkata,West Bengal,22.524367,88.453597,2024-07-31,1:00,1,Wednesday,0,urban,5,0,rain,medium,26,low,weather,minor,2,0,0,,0.25,Minor
+148,Bangalore,Karnataka,13.055067,77.418018,2023-10-19,11:00,11,Thursday,0,rural,4,1,rain,low,30,low,distraction,minor,3,2,0,,0.45,Minor
+149,Delhi,Delhi,28.654528,76.925723,2022-05-10,2:00,2,Wednesday,0,urban,4,1,rain,low,35,low,weather,major,5,2,0,,0.45,Grievous/Major
+150,Bangalore,Karnataka,13.174917,77.602348,2023-04-11,21:00,21,Saturday,1,rural,4,1,rain,low,29,medium,drunk driving,major,4,4,0,,0.45,Grievous/Major
+151,Pune,Maharashtra,18.479329,73.88208,2022-06-11,22:00,22,Sunday,1,rural,6,0,clear,high,33,low,poor road,fatal,5,5,0,,0.3,Fatal
+152,Chandigarh,Punjab,30.65561,76.831544,2024-04-25,3:00,3,Thursday,0,highway,6,1,rain,medium,25,low,poor road,fatal,1,1,0,,0.45,Fatal
+153,Bangalore,Karnataka,13.052805,77.617588,2024-07-23,14:00,14,Tuesday,0,urban,3,1,rain,medium,26,medium,weather,minor,5,0,0,,0.25,Minor
+154,Delhi,Delhi,28.834402,77.209459,2022-12-23,12:00,12,Friday,0,rural,5,1,fog,low,33,medium,poor road,fatal,3,3,0,,0.65,Fatal
+155,Mumbai,Maharashtra,19.090344,72.902108,2022-03-28,10:00,10,Monday,0,urban,6,0,clear,high,35,high,weather,fatal,2,2,1,,0.65,Fatal
+156,Chennai,Tamil Nadu,13.196352,80.138535,2023-04-02,7:00,7,Saturday,1,urban,5,0,fog,low,32,medium,drunk driving,minor,1,1,0,,0.45,Minor
+157,Chennai,Tamil Nadu,13.152998,80.258685,2024-09-15,22:00,22,Sunday,1,rural,1,0,fog,low,19,high,distraction,major,4,2,0,,0.65,Grievous/Major
+158,Delhi,Delhi,28.671166,77.064188,2023-02-25,3:00,3,Saturday,1,rural,6,1,clear,high,27,high,distraction,minor,4,3,0,,0.3,Minor
+159,Kolkata,West Bengal,22.535434,88.290362,2025-09-01,8:00,8,Thursday,0,highway,5,0,clear,high,33,low,distraction,major,1,1,1,,0.25,Grievous/Major
+160,Pune,Maharashtra,18.522797,73.933778,2022-05-17,20:00,20,Tuesday,0,urban,4,0,fog,low,17,high,poor road,fatal,1,1,0,,0.85,Fatal
+161,Bangalore,Karnataka,12.828296,77.719866,2025-01-31,1:00,1,Friday,0,rural,3,1,fog,low,35,low,overspeeding,major,2,0,0,,0.45,Grievous/Major
+162,Pune,Maharashtra,18.435528,73.934128,2023-05-20,11:00,11,Saturday,1,rural,1,1,rain,low,19,low,poor road,major,5,1,0,,0.45,Grievous/Major
+163,Chennai,Tamil Nadu,12.921984,80.115306,2023-03-24,18:00,18,Friday,0,rural,5,1,clear,high,21,medium,poor road,major,5,5,1,,0.25,Grievous/Major
+164,Chennai,Tamil Nadu,12.841819,80.258805,2022-06-05,0:00,0,Friday,0,rural,2,1,rain,low,37,low,drunk driving,minor,4,0,0,,0.45,Minor
+165,Delhi,Delhi,28.492703,76.815886,2022-12-04,7:00,7,Tuesday,0,highway,1,1,fog,low,17,high,weather,major,4,3,0,,0.65,Grievous/Major
+166,Chandigarh,Punjab,30.677187,76.727473,2025-03-30,4:00,4,Sunday,1,rural,4,0,rain,low,16,medium,drunk driving,fatal,5,5,0,,0.65,Fatal
+167,Bangalore,Karnataka,13.068595,77.762442,2022-12-22,17:00,17,Thursday,0,urban,1,1,clear,high,33,medium,poor road,fatal,5,5,1,,0.45,Fatal
+168,Chennai,Tamil Nadu,12.891896,80.227598,2022-01-21,18:00,18,Friday,0,urban,3,1,clear,high,29,high,poor road,minor,2,1,1,,0.45,Minor
+169,Chandigarh,Punjab,30.788551,76.774195,2022-01-22,7:00,7,Saturday,1,highway,5,1,rain,low,37,low,drunk driving,minor,4,3,0,,0.45,Minor
+170,Chennai,Tamil Nadu,13.057219,80.184551,2022-09-18,6:00,6,Sunday,1,highway,6,1,rain,low,38,medium,drunk driving,fatal,4,4,0,,0.65,Fatal
+171,Delhi,Delhi,28.555907,77.177935,2022-02-09,21:00,21,Friday,0,highway,1,1,fog,low,37,low,drunk driving,minor,4,0,0,,0.45,Minor
+172,Bangalore,Karnataka,12.94144,77.549761,2023-08-12,10:00,10,Friday,0,rural,3,0,rain,low,19,high,distraction,minor,2,1,1,,0.8,Minor
+173,Bangalore,Karnataka,12.90836,77.563109,2023-08-24,21:00,21,Thursday,0,highway,1,1,rain,low,27,high,weather,minor,5,1,0,,0.65,Minor
+174,Bangalore,Karnataka,13.008178,77.683777,2023-09-05,4:00,4,Tuesday,0,highway,5,0,rain,low,27,low,overspeeding,major,4,0,0,,0.45,Grievous/Major
+175,Hyderabad,Telangana,17.253718,78.264759,2023-03-12,21:00,21,Sunday,1,highway,4,0,fog,low,20,high,weather,minor,5,1,0,,0.65,Minor
+176,Kolkata,West Bengal,22.643283,88.434764,2024-09-04,14:00,14,Tuesday,0,urban,3,0,fog,low,19,low,poor road,minor,3,1,0,,0.45,Minor
+177,Chandigarh,Punjab,30.78977,76.791081,2024-11-11,4:00,4,Monday,0,highway,2,1,clear,high,39,low,distraction,minor,5,0,0,,0.1,Minor
+178,Bangalore,Karnataka,13.094302,77.576124,2023-04-30,1:00,1,Sunday,1,rural,1,1,clear,high,32,low,weather,minor,1,0,0,,0.1,Minor
+179,Kolkata,West Bengal,22.453114,88.383374,2022-01-31,21:00,21,Monday,0,urban,3,0,clear,high,20,medium,weather,fatal,4,4,0,,0.3,Fatal
+180,Hyderabad,Telangana,17.492197,78.20001,2022-01-13,19:00,19,Thursday,0,urban,6,0,rain,medium,20,high,poor road,minor,2,0,1,,0.6,Minor
+181,Chandigarh,Punjab,30.786188,76.807627,2023-03-28,22:00,22,Tuesday,0,highway,6,1,rain,low,33,low,poor road,minor,5,2,0,,0.45,Minor
+182,Hyderabad,Telangana,17.563446,78.232019,2023-10-10,13:00,13,Tuesday,0,urban,5,0,rain,low,39,high,poor road,minor,5,0,0,,0.65,Minor
+183,Bangalore,Karnataka,12.971567,77.689448,2022-11-07,20:00,20,Monday,0,urban,1,1,fog,low,21,medium,drunk driving,minor,1,0,0,,0.45,Minor
+184,Chandigarh,Punjab,30.784319,76.811367,2024-08-19,8:00,8,Monday,0,highway,2,0,clear,high,23,high,weather,major,5,5,1,,0.45,Grievous/Major
+185,Hyderabad,Telangana,17.262441,78.332996,2022-03-21,19:00,19,Monday,0,urban,2,1,clear,high,23,low,distraction,major,2,0,1,,0.25,Grievous/Major
+186,Pune,Maharashtra,18.62914,73.851101,2025-01-01,10:00,10,Wednesday,0,rural,6,0,rain,low,34,high,distraction,minor,1,1,1,,0.8,Minor
+187,Pune,Maharashtra,18.616196,73.705131,2024-10-18,8:00,8,Friday,0,urban,1,0,fog,low,31,high,overspeeding,major,3,1,1,,0.8,Grievous/Major
+188,Hyderabad,Telangana,17.432325,78.449923,2022-08-09,0:00,0,Thursday,0,urban,4,0,clear,high,22,low,overspeeding,major,5,4,0,,0.1,Grievous/Major
+189,Mumbai,Maharashtra,18.849144,72.726339,2023-02-28,8:00,8,Tuesday,0,highway,6,0,fog,low,27,low,poor road,major,1,0,1,,0.6,Grievous/Major
+190,Kolkata,West Bengal,22.563456,88.315626,2024-06-03,19:00,19,Wednesday,0,urban,3,1,rain,low,36,high,poor road,fatal,1,1,1,,1.0,Fatal
+191,Pune,Maharashtra,18.441514,73.89283,2025-01-28,19:00,19,Tuesday,0,urban,4,1,rain,low,16,high,poor road,minor,5,1,1,,0.8,Minor
+192,Pune,Maharashtra,18.627045,73.919901,2024-04-23,15:00,15,Tuesday,0,urban,2,1,rain,medium,21,high,weather,major,4,3,0,,0.45,Grievous/Major
+193,Hyderabad,Telangana,17.453887,78.418717,2023-01-25,7:00,7,Wednesday,0,rural,5,1,clear,high,34,medium,weather,minor,5,3,0,,0.1,Minor
+194,Hyderabad,Telangana,17.310034,78.367309,2024-07-13,18:00,18,Saturday,1,urban,4,0,rain,low,16,high,distraction,major,3,2,1,,0.8,Grievous/Major
+195,Bangalore,Karnataka,13.180613,77.573218,2024-01-30,2:00,2,Tuesday,0,urban,4,0,fog,low,17,low,overspeeding,major,2,1,0,,0.45,Grievous/Major
+196,Kolkata,West Bengal,22.48019,88.366839,2022-11-03,16:00,16,Friday,0,urban,5,0,rain,low,20,low,weather,minor,5,5,0,,0.45,Minor
+197,Mumbai,Maharashtra,19.05988,72.748749,2022-04-11,2:00,2,Friday,0,urban,5,1,clear,high,36,high,weather,major,2,2,0,,0.3,Grievous/Major
+198,Chandigarh,Punjab,30.650517,76.789449,2022-10-21,0:00,0,Friday,0,urban,2,1,clear,high,36,low,drunk driving,minor,3,2,0,,0.1,Minor
+199,Mumbai,Maharashtra,19.093036,72.876566,2024-04-20,9:00,9,Saturday,1,highway,5,1,rain,medium,40,low,drunk driving,fatal,1,1,1,,0.6,Fatal
+200,Delhi,Delhi,28.596361,77.02673,2023-02-22,0:00,0,Wednesday,0,highway,6,0,fog,low,19,low,weather,minor,4,1,0,,0.45,Minor
+201,Kolkata,West Bengal,22.648231,88.411475,2023-01-28,15:00,15,Saturday,1,rural,1,0,rain,low,27,low,drunk driving,minor,5,3,0,,0.45,Minor
+202,Chennai,Tamil Nadu,12.894547,80.239536,2025-03-03,3:00,3,Monday,0,highway,6,0,clear,high,22,medium,poor road,minor,2,1,0,,0.1,Minor
+203,Chandigarh,Punjab,30.706127,76.870146,2023-04-09,19:00,19,Monday,0,highway,6,0,rain,low,34,high,distraction,major,5,1,1,,0.8,Grievous/Major
+204,Chandigarh,Punjab,30.736284,76.88423,2022-07-05,18:00,18,Saturday,1,urban,1,0,rain,low,15,high,overspeeding,minor,5,4,1,,0.8,Minor
+205,Bangalore,Karnataka,12.884671,77.570809,2024-07-04,10:00,10,Sunday,1,urban,1,1,rain,medium,37,low,weather,minor,3,3,1,,0.4,Minor
+206,Kolkata,West Bengal,22.641019,88.468147,2023-12-28,14:00,14,Thursday,0,urban,5,1,clear,high,22,high,poor road,minor,3,0,0,,0.3,Minor
+207,Delhi,Delhi,28.497753,76.936211,2022-12-27,22:00,22,Tuesday,0,urban,2,1,fog,low,34,high,overspeeding,minor,4,0,0,,0.65,Minor
+208,Hyderabad,Telangana,17.22001,78.311087,2024-07-07,10:00,10,Sunday,1,rural,6,0,fog,low,16,high,weather,minor,4,2,1,,0.8,Minor
+209,Pune,Maharashtra,18.533492,73.818053,2023-10-09,23:00,23,Sunday,1,highway,4,0,rain,low,19,high,weather,major,2,0,0,,0.65,Grievous/Major
+210,Bangalore,Karnataka,12.898651,77.518953,2024-11-07,18:00,18,Thursday,0,urban,2,0,clear,high,22,high,distraction,minor,3,0,1,,0.45,Minor
+211,Chennai,Tamil Nadu,12.942775,80.266239,2023-11-09,0:00,0,Monday,0,highway,3,0,fog,low,24,low,distraction,minor,3,2,0,,0.45,Minor
+212,Mumbai,Maharashtra,18.845526,72.792846,2024-06-05,15:00,15,Monday,0,urban,5,1,fog,low,31,low,distraction,major,2,0,0,,0.45,Grievous/Major
+213,Pune,Maharashtra,18.449045,73.963577,2022-12-17,20:00,20,Saturday,1,rural,2,1,rain,low,22,low,poor road,major,3,1,0,,0.45,Grievous/Major
+214,Chennai,Tamil Nadu,12.861288,80.167097,2022-01-18,2:00,2,Tuesday,0,highway,1,1,rain,low,29,medium,poor road,minor,5,5,0,,0.45,Minor
+215,Pune,Maharashtra,18.618088,73.989576,2024-01-06,8:00,8,Saturday,1,urban,3,1,fog,low,28,high,drunk driving,minor,3,0,1,,0.8,Minor
+216,Bangalore,Karnataka,13.09534,77.402311,2024-11-27,2:00,2,Wednesday,0,rural,5,0,clear,high,34,low,weather,major,5,5,0,,0.1,Grievous/Major
+217,Delhi,Delhi,28.694773,77.138622,2023-02-25,18:00,18,Saturday,1,rural,3,0,rain,low,35,high,distraction,minor,2,1,1,,0.8,Minor
+218,Chandigarh,Punjab,30.75305,76.886282,2024-10-10,17:00,17,Thursday,0,highway,5,1,fog,low,19,high,distraction,major,2,1,1,,0.8,Grievous/Major
+219,Bangalore,Karnataka,12.888723,77.598691,2023-05-08,23:00,23,Saturday,1,highway,5,0,rain,medium,25,high,weather,fatal,1,1,0,,0.65,Fatal
+220,Mumbai,Maharashtra,18.960845,72.922053,2024-09-24,21:00,21,Tuesday,0,rural,4,1,clear,high,33,high,drunk driving,minor,2,0,0,,0.3,Minor
+221,Bangalore,Karnataka,12.966,77.42648,2023-10-28,18:00,18,Saturday,1,highway,4,0,fog,low,17,medium,weather,minor,1,1,1,,0.6,Minor
+222,Chennai,Tamil Nadu,13.059482,80.132694,2022-12-30,19:00,19,Friday,0,highway,4,0,fog,low,29,high,weather,major,5,4,1,,0.8,Grievous/Major
+223,Pune,Maharashtra,18.479836,73.980057,2023-07-08,23:00,23,Monday,0,rural,5,1,fog,low,34,medium,weather,major,2,1,0,,0.45,Grievous/Major
+224,Delhi,Delhi,28.570297,77.25409,2023-12-04,10:00,10,Wednesday,0,highway,6,1,fog,low,35,medium,drunk driving,minor,2,1,1,,0.6,Minor
+225,Mumbai,Maharashtra,19.147537,72.781967,2023-10-19,6:00,6,Thursday,0,rural,2,1,rain,medium,36,high,poor road,minor,4,4,0,,0.45,Minor
+226,Chennai,Tamil Nadu,12.931329,80.177908,2024-09-28,22:00,22,Saturday,1,highway,4,1,rain,medium,26,medium,weather,minor,2,0,0,,0.25,Minor
+227,Chennai,Tamil Nadu,12.931505,80.204867,2023-01-05,18:00,18,Monday,0,rural,2,1,rain,low,28,medium,drunk driving,major,3,2,1,,0.6,Grievous/Major
+228,Chennai,Tamil Nadu,12.826312,80.207278,2022-01-14,3:00,3,Friday,0,urban,6,0,clear,high,35,medium,drunk driving,minor,3,1,0,,0.1,Minor
+229,Hyderabad,Telangana,17.227437,78.332683,2024-12-10,13:00,13,Saturday,1,rural,4,0,clear,high,38,high,distraction,major,1,1,0,,0.3,Grievous/Major
+230,Pune,Maharashtra,18.511753,73.872341,2024-03-30,11:00,11,Saturday,1,urban,2,1,rain,low,28,high,poor road,minor,1,1,0,,0.65,Minor
+231,Bangalore,Karnataka,13.166458,77.645976,2022-08-11,0:00,0,Tuesday,0,rural,5,0,fog,low,39,low,weather,major,4,0,0,,0.45,Grievous/Major
+232,Hyderabad,Telangana,17.230262,78.253208,2022-11-07,0:00,0,Monday,0,urban,3,1,clear,high,23,low,overspeeding,fatal,1,1,0,,0.3,Fatal
+233,Chennai,Tamil Nadu,13.101426,80.265354,2022-11-27,9:00,9,Sunday,1,urban,1,1,rain,low,23,medium,poor road,minor,3,2,1,,0.6,Minor
+234,Chandigarh,Punjab,30.621868,76.767922,2024-02-18,14:00,14,Sunday,1,highway,3,0,fog,low,32,low,poor road,major,2,2,0,,0.45,Grievous/Major
+235,Chennai,Tamil Nadu,13.104646,80.294344,2024-05-23,7:00,7,Thursday,0,urban,3,0,fog,low,16,high,drunk driving,major,3,2,0,,0.65,Grievous/Major
+236,Bangalore,Karnataka,13.160679,77.450578,2022-08-14,17:00,17,Sunday,1,urban,2,0,clear,high,30,medium,overspeeding,major,5,4,1,,0.25,Grievous/Major
+237,Kolkata,West Bengal,22.421859,88.374025,2022-05-05,9:00,9,Thursday,0,highway,3,1,clear,high,31,medium,overspeeding,major,1,1,1,,0.25,Grievous/Major
+238,Delhi,Delhi,28.691978,77.169403,2023-03-01,21:00,21,Tuesday,0,urban,3,0,fog,low,26,high,poor road,major,1,1,0,,0.65,Grievous/Major
+239,Kolkata,West Bengal,22.582986,88.286863,2024-09-20,6:00,6,Friday,0,urban,1,0,clear,high,29,low,overspeeding,fatal,1,1,0,,0.3,Fatal
+240,Mumbai,Maharashtra,19.000379,72.96346,2023-10-26,17:00,17,Thursday,0,rural,1,0,rain,low,20,high,weather,minor,4,4,1,,0.8,Minor
+241,Mumbai,Maharashtra,18.844068,72.948507,2023-06-01,7:00,7,Friday,0,urban,2,0,rain,low,26,high,poor road,major,4,2,0,,0.65,Grievous/Major
+242,Chandigarh,Punjab,30.722768,76.846181,2023-04-05,4:00,4,Thursday,0,rural,3,0,fog,low,40,medium,distraction,major,4,2,0,,0.45,Grievous/Major
+243,Chandigarh,Punjab,30.726192,76.756446,2022-12-18,8:00,8,Sunday,1,rural,5,0,clear,high,40,medium,weather,minor,4,0,1,,0.25,Minor
+244,Kolkata,West Bengal,22.542146,88.249395,2024-08-13,11:00,11,Tuesday,0,rural,1,0,rain,medium,20,high,overspeeding,minor,2,1,0,,0.45,Minor
+245,Chennai,Tamil Nadu,12.979934,80.258425,2022-06-29,16:00,16,Wednesday,0,rural,3,0,fog,low,28,medium,overspeeding,major,4,2,0,,0.45,Grievous/Major
+246,Kolkata,West Bengal,22.691684,88.380487,2024-04-08,15:00,15,Sunday,1,highway,3,1,fog,low,23,medium,overspeeding,minor,2,1,0,,0.45,Minor
+247,Pune,Maharashtra,18.554742,73.846455,2022-02-27,5:00,5,Sunday,1,rural,1,0,fog,low,26,high,drunk driving,minor,2,0,0,,0.65,Minor
+248,Pune,Maharashtra,18.492599,73.918395,2023-01-12,8:00,8,Friday,0,urban,3,0,rain,low,35,high,drunk driving,minor,5,3,1,,0.8,Minor
+249,Bangalore,Karnataka,12.87812,77.75548,2022-11-22,11:00,11,Tuesday,0,highway,2,0,rain,medium,15,high,poor road,minor,1,1,0,,0.45,Minor
+250,Kolkata,West Bengal,22.628792,88.377574,2024-12-20,11:00,11,Friday,0,highway,2,0,fog,low,30,high,overspeeding,minor,3,2,0,,0.65,Minor
+251,Delhi,Delhi,28.42531,76.842778,2024-12-22,6:00,6,Sunday,1,highway,4,1,fog,low,24,medium,overspeeding,minor,5,0,0,,0.45,Minor
+252,Chennai,Tamil Nadu,13.07404,80.152144,2022-12-30,20:00,20,Friday,0,rural,3,0,clear,high,28,medium,drunk driving,minor,2,1,0,,0.1,Minor
+253,Delhi,Delhi,28.403747,76.847221,2024-04-27,2:00,2,Saturday,1,rural,5,0,rain,low,37,low,weather,major,5,3,0,,0.45,Grievous/Major
+254,Mumbai,Maharashtra,19.150088,72.702839,2023-10-20,20:00,20,Friday,0,highway,3,0,fog,low,37,high,weather,major,5,0,0,,0.65,Grievous/Major
+255,Mumbai,Maharashtra,19.035655,72.955069,2022-01-01,6:00,6,Saturday,1,highway,4,0,clear,high,29,low,drunk driving,minor,5,5,0,,0.1,Minor
+256,Chennai,Tamil Nadu,12.911957,80.196891,2023-05-21,18:00,18,Sunday,1,urban,5,0,rain,medium,40,low,drunk driving,minor,1,1,1,,0.4,Minor
+257,Delhi,Delhi,28.472435,77.19605,2022-05-16,1:00,1,Monday,0,highway,5,0,fog,low,26,high,overspeeding,minor,5,4,0,,0.65,Minor
+258,Chandigarh,Punjab,30.6107,76.703665,2024-11-07,15:00,15,Thursday,0,urban,5,0,fog,low,21,high,poor road,minor,5,5,0,,0.65,Minor
+259,Delhi,Delhi,28.404569,76.804829,2022-06-16,11:00,11,Thursday,0,rural,4,0,clear,high,34,high,drunk driving,fatal,3,3,0,,0.5,Fatal
+260,Chandigarh,Punjab,30.63764,76.825478,2023-03-23,14:00,14,Thursday,0,rural,6,1,fog,low,31,low,drunk driving,major,4,3,0,,0.45,Grievous/Major
+261,Mumbai,Maharashtra,19.115596,72.802382,2022-04-07,7:00,7,Monday,0,rural,4,0,clear,high,25,medium,distraction,major,1,0,0,,0.1,Grievous/Major
+262,Pune,Maharashtra,18.695595,73.868888,2022-05-26,12:00,12,Thursday,0,rural,6,0,fog,low,30,medium,overspeeding,minor,4,4,0,,0.45,Minor
+263,Kolkata,West Bengal,22.494643,88.492238,2024-02-24,17:00,17,Saturday,1,highway,6,1,clear,high,21,medium,weather,minor,4,2,1,,0.25,Minor
+264,Chandigarh,Punjab,30.734981,76.773993,2024-07-09,14:00,14,Saturday,1,highway,4,1,rain,medium,20,low,distraction,minor,5,1,0,,0.25,Minor
+265,Chandigarh,Punjab,30.711487,76.846221,2023-11-27,0:00,0,Monday,0,rural,3,1,clear,high,25,high,distraction,fatal,4,4,0,,0.5,Fatal
+266,Chennai,Tamil Nadu,12.968853,80.196115,2024-10-15,1:00,1,Tuesday,0,urban,3,0,fog,low,30,low,poor road,major,3,3,0,,0.45,Grievous/Major
+267,Kolkata,West Bengal,22.63079,88.274384,2023-03-20,20:00,20,Monday,0,highway,4,1,fog,low,31,medium,poor road,major,4,2,0,,0.45,Grievous/Major
+268,Chandigarh,Punjab,30.671217,76.878695,2025-12-02,17:00,17,Wednesday,0,rural,3,0,fog,low,34,high,poor road,minor,3,3,1,,0.8,Minor
+269,Bangalore,Karnataka,12.933538,77.737824,2025-04-01,18:00,18,Saturday,1,rural,5,0,clear,high,16,medium,overspeeding,minor,3,3,1,,0.25,Minor
+270,Bangalore,Karnataka,12.934971,77.501295,2024-07-23,3:00,3,Tuesday,0,urban,6,0,rain,low,35,low,overspeeding,fatal,3,3,0,,0.65,Fatal
+271,Bangalore,Karnataka,13.088481,77.401871,2023-03-17,22:00,22,Friday,0,highway,4,0,rain,low,32,medium,overspeeding,fatal,4,4,0,,0.65,Fatal
+272,Chennai,Tamil Nadu,13.032356,80.200645,2022-01-06,13:00,13,Wednesday,0,urban,4,0,clear,high,24,low,drunk driving,minor,4,2,0,,0.1,Minor
+273,Pune,Maharashtra,18.685749,73.854341,2024-08-04,21:00,21,Monday,0,rural,2,0,fog,low,32,low,poor road,major,2,1,0,,0.45,Grievous/Major
+274,Chandigarh,Punjab,30.600709,76.788381,2023-12-04,17:00,17,Wednesday,0,rural,2,1,fog,low,29,high,distraction,minor,2,2,1,,0.8,Minor
+275,Chennai,Tamil Nadu,12.865666,80.225481,2023-06-12,2:00,2,Wednesday,0,rural,1,1,rain,low,30,low,weather,minor,5,3,0,,0.45,Minor
+276,Chennai,Tamil Nadu,13.125687,80.288644,2022-07-04,14:00,14,Thursday,0,urban,5,0,fog,low,19,high,weather,major,1,0,0,,0.65,Grievous/Major
+277,Chandigarh,Punjab,30.615981,76.703249,2023-07-10,1:00,1,Saturday,1,rural,3,1,rain,low,30,low,distraction,fatal,3,3,0,,0.65,Fatal
+278,Kolkata,West Bengal,22.449438,88.268509,2023-05-14,20:00,20,Sunday,1,highway,4,0,fog,low,27,medium,drunk driving,major,3,3,0,,0.45,Grievous/Major
+279,Bangalore,Karnataka,12.906665,77.751883,2024-10-07,5:00,5,Wednesday,0,highway,6,1,fog,low,36,low,overspeeding,minor,2,2,0,,0.45,Minor
+280,Bangalore,Karnataka,12.854596,77.734873,2023-08-04,9:00,9,Saturday,1,highway,4,1,fog,low,30,medium,poor road,minor,4,2,1,,0.6,Minor
+281,Hyderabad,Telangana,17.453228,78.354267,2023-03-18,9:00,9,Saturday,1,urban,3,0,rain,low,30,high,overspeeding,major,4,1,1,,0.8,Grievous/Major
+282,Chandigarh,Punjab,30.689908,76.86273,2023-08-05,11:00,11,Monday,0,urban,1,1,rain,low,16,high,drunk driving,minor,5,4,0,,0.65,Minor
+283,Mumbai,Maharashtra,18.918465,72.813324,2024-11-09,2:00,2,Wednesday,0,urban,6,0,fog,low,33,high,distraction,minor,4,4,0,,0.65,Minor
+284,Pune,Maharashtra,18.50586,73.779004,2023-09-14,18:00,18,Thursday,0,highway,5,1,rain,low,24,medium,weather,major,1,1,1,,0.6,Grievous/Major
+285,Pune,Maharashtra,18.432833,73.776399,2024-02-21,22:00,22,Wednesday,0,highway,2,1,rain,medium,17,high,drunk driving,minor,3,3,0,,0.45,Minor
+286,Kolkata,West Bengal,22.542201,88.296251,2022-08-07,11:00,11,Friday,0,rural,5,0,clear,high,15,high,poor road,major,4,0,0,,0.3,Grievous/Major
+287,Delhi,Delhi,28.656319,77.232117,2022-08-12,9:00,9,Thursday,0,highway,1,0,clear,high,18,medium,drunk driving,minor,4,1,1,,0.25,Minor
+288,Mumbai,Maharashtra,18.87409,72.939462,2022-03-12,4:00,4,Saturday,1,rural,3,1,rain,low,38,low,distraction,major,2,1,0,,0.45,Grievous/Major
+289,Pune,Maharashtra,18.460951,73.781916,2023-03-12,14:00,14,Sunday,1,highway,5,1,rain,medium,34,medium,overspeeding,minor,1,0,0,,0.25,Minor
+290,Mumbai,Maharashtra,19.160639,72.885188,2022-01-25,10:00,10,Tuesday,0,highway,3,1,fog,low,15,low,distraction,major,4,2,1,,0.6,Grievous/Major
+291,Delhi,Delhi,28.505662,76.960158,2024-05-09,11:00,11,Thursday,0,urban,6,1,fog,low,35,medium,drunk driving,fatal,4,4,0,,0.65,Fatal
+292,Mumbai,Maharashtra,18.803394,72.756475,2024-11-11,5:00,5,Monday,0,highway,1,1,rain,medium,37,medium,poor road,fatal,4,4,0,,0.45,Fatal
+293,Chennai,Tamil Nadu,13.030792,80.290558,2023-10-08,9:00,9,Thursday,0,rural,1,0,fog,low,27,medium,distraction,minor,1,0,1,,0.6,Minor
+294,Mumbai,Maharashtra,18.922093,72.940473,2024-10-09,0:00,0,Tuesday,0,highway,5,0,fog,low,28,medium,weather,major,4,4,0,,0.45,Grievous/Major
+295,Chandigarh,Punjab,30.632006,76.795028,2024-10-24,22:00,22,Thursday,0,urban,2,0,fog,low,22,low,overspeeding,minor,2,0,0,,0.45,Minor
+296,Mumbai,Maharashtra,18.942286,72.710271,2024-05-30,16:00,16,Thursday,0,highway,5,1,rain,medium,37,medium,distraction,minor,3,2,0,,0.25,Minor
+297,Kolkata,West Bengal,22.419317,88.310364,2024-11-11,23:00,23,Monday,0,urban,3,0,fog,low,19,low,drunk driving,major,2,1,0,,0.45,Grievous/Major
+298,Mumbai,Maharashtra,19.277319,72.843699,2022-05-02,23:00,23,Saturday,1,rural,5,0,clear,high,38,high,poor road,minor,5,4,0,,0.3,Minor
+299,Chandigarh,Punjab,30.616643,76.869914,2022-06-02,12:00,12,Sunday,1,urban,4,0,rain,medium,31,high,overspeeding,minor,4,2,0,,0.45,Minor
+300,Pune,Maharashtra,18.513383,73.728215,2023-03-06,16:00,16,Saturday,1,rural,1,1,rain,medium,20,high,drunk driving,minor,2,2,0,,0.45,Minor
+301,Kolkata,West Bengal,22.542294,88.440962,2022-12-16,9:00,9,Friday,0,rural,6,1,rain,low,33,medium,poor road,fatal,3,3,1,,0.8,Fatal
+302,Kolkata,West Bengal,22.578646,88.267103,2022-04-28,1:00,1,Thursday,0,rural,3,1,clear,high,31,low,poor road,minor,2,0,0,,0.1,Minor
+303,Mumbai,Maharashtra,18.904696,72.929499,2023-06-11,23:00,23,Monday,0,highway,1,0,clear,high,23,low,weather,minor,3,1,0,,0.1,Minor
+304,Chennai,Tamil Nadu,13.158922,80.282375,2022-11-14,9:00,9,Monday,0,urban,3,1,clear,high,25,high,weather,major,1,1,1,,0.45,Grievous/Major
+305,Chandigarh,Punjab,30.666974,76.757047,2023-07-30,9:00,9,Sunday,1,highway,4,1,fog,low,37,high,weather,minor,2,0,1,,0.8,Minor
+306,Chandigarh,Punjab,30.655634,76.703463,2024-07-31,12:00,12,Wednesday,0,urban,4,1,fog,low,19,medium,drunk driving,fatal,5,5,0,,0.65,Fatal
+307,Bangalore,Karnataka,13.070817,77.754253,2024-09-10,2:00,2,Wednesday,0,highway,6,0,fog,low,17,high,overspeeding,major,4,3,0,,0.65,Grievous/Major
+308,Kolkata,West Bengal,22.617531,88.294685,2022-11-28,1:00,1,Monday,0,urban,2,0,fog,low,21,low,drunk driving,minor,4,3,0,,0.45,Minor
+309,Chandigarh,Punjab,30.767989,76.78677,2023-02-03,11:00,11,Thursday,0,highway,2,1,clear,high,36,medium,drunk driving,minor,1,0,0,,0.1,Minor
+310,Chandigarh,Punjab,30.751536,76.828455,2022-11-04,21:00,21,Monday,0,rural,3,1,fog,low,22,high,weather,minor,2,2,0,,0.65,Minor
+311,Chandigarh,Punjab,30.725966,76.873965,2024-03-24,7:00,7,Sunday,1,rural,2,0,rain,medium,20,medium,weather,major,1,1,0,,0.25,Grievous/Major
+312,Hyderabad,Telangana,17.474242,78.535552,2023-05-16,12:00,12,Tuesday,0,rural,1,1,rain,medium,15,high,weather,major,2,2,0,,0.45,Grievous/Major
+313,Chennai,Tamil Nadu,13.087316,80.226797,2022-04-26,6:00,6,Tuesday,0,urban,4,1,fog,low,39,medium,poor road,major,1,0,0,,0.45,Grievous/Major
+314,Kolkata,West Bengal,22.505115,88.233239,2024-07-31,2:00,2,Wednesday,0,highway,5,1,clear,high,39,low,poor road,minor,5,0,0,,0.1,Minor
+315,Mumbai,Maharashtra,18.81774,72.773961,2024-05-09,22:00,22,Thursday,0,rural,1,1,rain,medium,19,low,drunk driving,major,2,2,0,,0.25,Grievous/Major
+316,Delhi,Delhi,28.867743,76.854527,2023-04-24,7:00,7,Monday,0,rural,4,0,fog,low,39,medium,weather,fatal,1,1,0,,0.65,Fatal
+317,Pune,Maharashtra,18.660086,73.810194,2022-03-22,1:00,1,Tuesday,0,urban,2,1,rain,low,20,low,drunk driving,major,3,2,0,,0.45,Grievous/Major
+318,Mumbai,Maharashtra,19.27562,72.80497,2024-01-17,16:00,16,Wednesday,0,rural,2,0,clear,high,26,medium,poor road,minor,3,1,0,,0.1,Minor
+319,Chennai,Tamil Nadu,12.934717,80.259504,2022-04-10,2:00,2,Tuesday,0,highway,5,1,clear,high,19,high,overspeeding,major,3,3,0,,0.3,Grievous/Major
+320,Chandigarh,Punjab,30.655311,76.714474,2023-02-19,15:00,15,Sunday,1,urban,3,1,fog,low,26,low,overspeeding,fatal,3,3,0,,0.65,Fatal
+321,Bangalore,Karnataka,12.852964,77.561684,2022-08-15,18:00,18,Monday,0,rural,5,1,fog,low,27,high,poor road,major,2,2,1,,0.8,Grievous/Major
+322,Pune,Maharashtra,18.46926,73.979581,2022-02-21,18:00,18,Monday,0,highway,3,0,clear,high,20,high,weather,minor,1,0,1,,0.45,Minor
+323,Delhi,Delhi,28.824805,77.267512,2022-07-05,16:00,16,Saturday,1,highway,6,1,clear,high,34,low,overspeeding,minor,2,0,0,,0.1,Minor
+324,Chennai,Tamil Nadu,12.865026,80.224187,2025-10-04,21:00,21,Thursday,0,rural,3,1,clear,high,17,low,weather,minor,1,0,0,,0.1,Minor
+325,Kolkata,West Bengal,22.423409,88.23046,2023-01-30,4:00,4,Monday,0,highway,5,0,clear,high,39,low,drunk driving,minor,2,1,0,,0.1,Minor
+326,Chennai,Tamil Nadu,12.979773,80.125904,2024-01-11,15:00,15,Friday,0,urban,5,1,fog,low,32,low,weather,minor,1,1,0,Diwali,0.55,Minor
+327,Chandigarh,Punjab,30.796737,76.773533,2024-06-24,14:00,14,Monday,0,rural,4,1,rain,medium,31,low,weather,major,3,3,0,,0.25,Grievous/Major
+328,Mumbai,Maharashtra,19.025583,72.703921,2022-02-27,14:00,14,Sunday,1,rural,5,1,clear,high,23,medium,weather,minor,4,1,0,,0.1,Minor
+329,Pune,Maharashtra,18.421265,73.710506,2022-03-11,3:00,3,Thursday,0,urban,6,1,fog,low,32,low,poor road,major,3,1,0,,0.45,Grievous/Major
+330,Hyderabad,Telangana,17.510543,78.427133,2022-08-24,3:00,3,Wednesday,0,highway,5,0,fog,low,37,low,poor road,minor,2,2,0,,0.45,Minor
+331,Mumbai,Maharashtra,19.093059,72.74776,2023-06-03,8:00,8,Monday,0,urban,6,0,fog,low,21,medium,drunk driving,fatal,1,1,1,,0.8,Fatal
+332,Kolkata,West Bengal,22.68123,88.384248,2023-02-04,20:00,20,Sunday,1,highway,3,0,clear,high,27,low,weather,fatal,2,2,0,,0.3,Fatal
+333,Kolkata,West Bengal,22.403454,88.206231,2024-11-26,11:00,11,Tuesday,0,urban,6,1,rain,low,29,low,overspeeding,minor,3,2,0,,0.45,Minor
+334,Pune,Maharashtra,18.580848,73.876593,2024-11-05,21:00,21,Saturday,1,rural,2,0,clear,high,38,low,weather,minor,5,5,0,,0.1,Minor
+335,Pune,Maharashtra,18.404333,73.812579,2024-09-07,22:00,22,Tuesday,0,highway,2,1,clear,high,27,high,distraction,major,5,4,0,,0.3,Grievous/Major
+336,Pune,Maharashtra,18.612059,73.719751,2024-10-12,3:00,3,Tuesday,0,rural,6,1,fog,low,27,low,weather,minor,5,2,0,,0.45,Minor
+337,Pune,Maharashtra,18.464387,73.94994,2022-03-02,11:00,11,Thursday,0,urban,1,1,rain,low,30,medium,poor road,major,2,0,0,,0.45,Grievous/Major
+338,Bangalore,Karnataka,13.130325,77.446646,2023-06-02,9:00,9,Monday,0,urban,5,1,fog,low,21,medium,poor road,minor,2,1,1,,0.6,Minor
+339,Hyderabad,Telangana,17.269165,78.502459,2023-04-09,20:00,20,Monday,0,urban,3,1,fog,low,22,medium,overspeeding,major,1,1,0,,0.45,Grievous/Major
+340,Pune,Maharashtra,18.623789,73.873265,2022-01-31,18:00,18,Monday,0,rural,5,0,fog,low,20,medium,poor road,minor,5,3,1,,0.6,Minor
+341,Hyderabad,Telangana,17.527114,78.530469,2022-02-01,21:00,21,Sunday,1,rural,4,0,clear,high,30,low,drunk driving,minor,3,1,0,,0.1,Minor
+342,Delhi,Delhi,28.743818,77.084342,2024-06-14,15:00,15,Friday,0,urban,3,0,rain,low,28,medium,drunk driving,major,4,4,0,,0.45,Grievous/Major
+343,Delhi,Delhi,28.650713,76.817058,2024-02-25,9:00,9,Sunday,1,rural,6,1,rain,medium,25,high,drunk driving,minor,4,0,1,,0.6,Minor
+344,Chandigarh,Punjab,30.658244,76.853188,2024-06-24,15:00,15,Monday,0,urban,6,1,fog,low,39,high,distraction,minor,4,0,0,,0.65,Minor
+345,Kolkata,West Bengal,22.624284,88.344232,2024-03-25,11:00,11,Monday,0,rural,3,0,fog,low,27,low,drunk driving,fatal,4,4,0,Holi,0.75,Fatal
+346,Pune,Maharashtra,18.409953,73.994189,2024-07-21,12:00,12,Sunday,1,rural,2,1,rain,medium,17,medium,distraction,minor,3,2,0,,0.25,Minor
+347,Pune,Maharashtra,18.65561,73.751185,2023-01-14,8:00,8,Saturday,1,highway,2,0,fog,low,25,medium,drunk driving,minor,1,1,1,,0.6,Minor
+348,Chennai,Tamil Nadu,12.880956,80.246202,2025-03-21,19:00,19,Friday,0,urban,4,0,fog,low,26,medium,weather,fatal,1,1,1,,0.8,Fatal
+349,Kolkata,West Bengal,22.460049,88.33137,2025-01-02,1:00,1,Saturday,1,urban,3,0,rain,low,22,high,drunk driving,minor,1,1,0,,0.65,Minor
+350,Delhi,Delhi,28.819006,76.807353,2025-01-19,0:00,0,Sunday,1,highway,4,0,rain,low,30,low,poor road,minor,2,0,0,,0.45,Minor
+351,Hyderabad,Telangana,17.441486,78.243836,2023-01-03,15:00,15,Wednesday,0,highway,1,1,rain,medium,40,low,overspeeding,minor,3,0,0,,0.25,Minor
+352,Bangalore,Karnataka,13.071506,77.582699,2023-09-10,19:00,19,Monday,0,rural,3,0,clear,high,30,medium,poor road,fatal,4,4,1,,0.45,Fatal
+353,Chandigarh,Punjab,30.711408,76.707882,2025-02-16,13:00,13,Sunday,1,rural,5,0,clear,high,18,low,weather,minor,5,3,0,,0.1,Minor
+354,Chennai,Tamil Nadu,12.952895,80.171875,2025-01-17,19:00,19,Friday,0,rural,1,1,rain,medium,22,medium,distraction,minor,5,3,1,,0.4,Minor
+355,Hyderabad,Telangana,17.462352,78.560305,2022-09-14,10:00,10,Wednesday,0,urban,4,0,clear,high,28,high,distraction,major,5,5,1,,0.45,Grievous/Major
+356,Delhi,Delhi,28.4982,77.020293,2024-10-27,15:00,15,Sunday,1,urban,4,1,rain,low,37,high,weather,minor,5,5,0,,0.65,Minor
+357,Delhi,Delhi,28.89123,77.289334,2024-03-02,7:00,7,Saturday,1,urban,1,1,clear,high,25,medium,overspeeding,minor,5,1,0,,0.1,Minor
+358,Chandigarh,Punjab,30.673074,76.772135,2023-06-01,18:00,18,Friday,0,highway,5,1,rain,low,22,high,distraction,major,3,0,1,,0.8,Grievous/Major
+359,Kolkata,West Bengal,22.574229,88.208361,2024-06-08,13:00,13,Tuesday,0,highway,1,0,fog,low,38,high,poor road,major,4,3,0,,0.65,Grievous/Major
+360,Mumbai,Maharashtra,19.206387,72.76094,2024-10-14,19:00,19,Monday,0,rural,3,1,clear,high,38,medium,distraction,major,5,1,1,,0.25,Grievous/Major
+361,Chennai,Tamil Nadu,12.987532,80.20733,2023-09-26,7:00,7,Tuesday,0,highway,3,1,rain,medium,28,high,poor road,major,1,1,0,,0.45,Grievous/Major
+362,Chennai,Tamil Nadu,13.147207,80.153679,2023-03-13,6:00,6,Monday,0,highway,1,1,rain,medium,23,high,weather,minor,4,0,0,,0.45,Minor
+363,Kolkata,West Bengal,22.464831,88.413777,2022-06-18,15:00,15,Saturday,1,rural,3,0,fog,low,27,medium,distraction,major,4,0,0,,0.45,Grievous/Major
+364,Chandigarh,Punjab,30.701537,76.755897,2023-08-01,14:00,14,Sunday,1,urban,1,1,clear,high,25,low,distraction,minor,1,1,0,,0.1,Minor
+365,Chennai,Tamil Nadu,13.114273,80.249777,2022-08-28,20:00,20,Sunday,1,urban,5,0,clear,high,40,low,overspeeding,major,3,1,0,,0.1,Grievous/Major
+366,Kolkata,West Bengal,22.415844,88.203608,2022-11-08,17:00,17,Thursday,0,urban,1,1,fog,low,17,high,overspeeding,minor,5,1,1,,0.8,Minor
+367,Bangalore,Karnataka,13.028376,77.625565,2023-06-19,18:00,18,Monday,0,highway,1,0,fog,low,39,high,drunk driving,major,4,0,1,,0.8,Grievous/Major
+368,Chandigarh,Punjab,30.789743,76.765097,2024-08-14,13:00,13,Wednesday,0,rural,1,1,fog,low,27,high,poor road,major,1,0,0,,0.65,Grievous/Major
+369,Pune,Maharashtra,18.47126,73.729648,2022-01-09,1:00,1,Thursday,0,urban,3,1,fog,low,29,low,weather,minor,3,0,0,,0.45,Minor
+370,Chandigarh,Punjab,30.674064,76.776373,2022-05-04,21:00,21,Tuesday,0,rural,5,1,rain,medium,39,low,weather,minor,2,0,0,,0.25,Minor
+371,Delhi,Delhi,28.654726,76.86286,2023-06-07,2:00,2,Thursday,0,urban,2,0,clear,high,21,medium,distraction,major,1,0,0,,0.1,Grievous/Major
+372,Delhi,Delhi,28.544843,76.914438,2024-02-25,19:00,19,Sunday,1,urban,2,1,clear,high,33,medium,overspeeding,major,5,3,1,,0.25,Grievous/Major
+373,Mumbai,Maharashtra,19.057954,72.75712,2023-04-13,2:00,2,Thursday,0,rural,5,1,fog,low,28,low,overspeeding,minor,4,0,0,,0.45,Minor
+374,Hyderabad,Telangana,17.465522,78.468433,2024-01-25,11:00,11,Thursday,0,urban,4,1,fog,low,37,high,distraction,major,3,2,0,,0.65,Grievous/Major
+375,Bangalore,Karnataka,12.947882,77.70417,2023-05-28,20:00,20,Sunday,1,rural,2,0,clear,high,27,high,poor road,minor,5,5,0,,0.3,Minor
+376,Chennai,Tamil Nadu,13.15716,80.108805,2025-03-19,14:00,14,Wednesday,0,urban,6,1,rain,low,25,high,drunk driving,minor,3,0,0,,0.65,Minor
+377,Mumbai,Maharashtra,19.288226,72.925037,2022-12-20,8:00,8,Tuesday,0,urban,4,1,clear,high,20,high,poor road,major,3,1,1,,0.45,Grievous/Major
+378,Mumbai,Maharashtra,19.163928,72.942826,2023-03-16,22:00,22,Thursday,0,urban,4,0,clear,high,34,medium,overspeeding,minor,4,2,0,,0.1,Minor
+379,Mumbai,Maharashtra,19.204154,72.754614,2023-11-20,23:00,23,Monday,0,highway,6,1,fog,low,29,high,overspeeding,major,1,0,0,,0.65,Grievous/Major
+380,Pune,Maharashtra,18.545375,73.814203,2024-08-29,23:00,23,Thursday,0,highway,4,1,fog,low,34,high,poor road,fatal,5,5,0,,0.85,Fatal
+381,Kolkata,West Bengal,22.681957,88.304039,2022-09-06,17:00,17,Thursday,0,highway,5,1,rain,medium,31,high,poor road,fatal,3,3,1,,0.8,Fatal
+382,Chennai,Tamil Nadu,13.144941,80.121944,2023-09-28,4:00,4,Thursday,0,highway,4,0,fog,low,16,low,drunk driving,minor,5,2,0,,0.45,Minor
+383,Pune,Maharashtra,18.559774,73.884165,2024-10-23,14:00,14,Wednesday,0,highway,1,0,fog,low,28,high,overspeeding,minor,1,1,0,,0.65,Minor
+384,Hyderabad,Telangana,17.429285,78.462174,2024-11-21,14:00,14,Thursday,0,highway,1,1,clear,high,20,low,poor road,major,4,0,0,,0.1,Grievous/Major
+385,Hyderabad,Telangana,17.51022,78.320229,2023-05-09,10:00,10,Tuesday,0,urban,6,1,clear,high,39,high,poor road,minor,5,4,1,,0.45,Minor
+386,Pune,Maharashtra,18.533183,73.792839,2022-06-20,15:00,15,Monday,0,rural,4,1,rain,medium,19,medium,overspeeding,minor,2,0,0,,0.25,Minor
+387,Chennai,Tamil Nadu,12.910369,80.297392,2024-09-21,6:00,6,Saturday,1,urban,4,1,clear,high,23,high,overspeeding,major,1,1,0,,0.3,Grievous/Major
+388,Bangalore,Karnataka,13.085418,77.731694,2023-03-24,8:00,8,Friday,0,urban,6,0,clear,high,27,high,drunk driving,major,5,5,1,,0.45,Grievous/Major
+389,Mumbai,Maharashtra,19.25538,72.982083,2022-09-18,8:00,8,Sunday,1,urban,6,0,rain,medium,18,high,overspeeding,minor,3,3,1,,0.6,Minor
+390,Delhi,Delhi,28.896351,76.909336,2022-06-19,11:00,11,Sunday,1,highway,4,0,fog,low,18,medium,poor road,minor,2,1,0,,0.45,Minor
+391,Bangalore,Karnataka,13.018995,77.767071,2024-10-30,1:00,1,Wednesday,0,urban,6,0,fog,low,27,low,poor road,minor,5,0,0,,0.45,Minor
+392,Delhi,Delhi,28.534511,76.998304,2024-12-29,10:00,10,Sunday,1,rural,6,0,fog,low,33,high,distraction,major,2,1,1,,0.8,Grievous/Major
+393,Chandigarh,Punjab,30.747416,76.743713,2022-06-05,8:00,8,Friday,0,rural,2,0,clear,high,38,high,weather,fatal,5,5,1,,0.65,Fatal
+394,Chennai,Tamil Nadu,13.193579,80.177155,2024-01-03,6:00,6,Friday,0,urban,2,0,clear,high,36,high,weather,major,4,3,0,,0.3,Grievous/Major
+395,Bangalore,Karnataka,13.155137,77.476742,2025-12-03,5:00,5,Wednesday,0,highway,6,1,fog,low,37,medium,weather,minor,3,0,0,,0.45,Minor
+396,Kolkata,West Bengal,22.555692,88.47553,2023-05-23,21:00,21,Tuesday,0,rural,4,0,rain,low,40,medium,drunk driving,fatal,5,5,0,,0.65,Fatal
+397,Kolkata,West Bengal,22.410099,88.480776,2023-02-27,21:00,21,Monday,0,highway,1,1,fog,low,23,medium,poor road,minor,4,3,0,,0.45,Minor
+398,Kolkata,West Bengal,22.450379,88.232242,2022-05-22,8:00,8,Sunday,1,rural,2,0,clear,high,34,high,overspeeding,minor,5,3,1,,0.45,Minor
+399,Mumbai,Maharashtra,19.228611,72.742829,2023-05-13,16:00,16,Saturday,1,highway,4,1,rain,medium,20,medium,weather,fatal,1,1,0,,0.45,Fatal
+400,Delhi,Delhi,28.607136,76.809087,2023-03-16,20:00,20,Thursday,0,urban,1,1,rain,low,24,medium,distraction,minor,3,3,0,,0.45,Minor
+401,Mumbai,Maharashtra,19.190948,72.77105,2024-03-20,17:00,17,Wednesday,0,urban,2,1,clear,high,31,high,poor road,minor,3,2,1,,0.45,Minor
+402,Pune,Maharashtra,18.448526,73.79873,2024-03-27,22:00,22,Wednesday,0,rural,4,1,fog,low,27,high,drunk driving,fatal,2,2,0,,0.85,Fatal
+403,Kolkata,West Bengal,22.626785,88.286183,2022-11-19,7:00,7,Saturday,1,highway,1,0,rain,low,26,high,poor road,minor,3,0,0,,0.65,Minor
+404,Hyderabad,Telangana,17.469867,78.205519,2022-03-25,4:00,4,Friday,0,highway,1,1,clear,high,32,low,distraction,minor,1,0,0,,0.1,Minor
+405,Hyderabad,Telangana,17.266396,78.569623,2024-05-15,6:00,6,Wednesday,0,highway,5,1,fog,low,28,high,weather,major,5,2,0,,0.65,Grievous/Major
+406,Pune,Maharashtra,18.546225,73.940637,2023-05-27,12:00,12,Saturday,1,highway,6,1,fog,low,32,low,overspeeding,minor,3,3,0,,0.45,Minor
+407,Bangalore,Karnataka,13.168031,77.626681,2022-09-07,19:00,19,Saturday,1,highway,5,0,fog,low,15,low,weather,major,2,1,1,,0.6,Grievous/Major
+408,Hyderabad,Telangana,17.380814,78.527045,2022-08-22,10:00,10,Monday,0,highway,4,0,fog,low,35,medium,distraction,minor,2,2,1,,0.6,Minor
+409,Mumbai,Maharashtra,19.147308,72.717022,2023-05-23,6:00,6,Tuesday,0,highway,2,0,clear,high,28,low,drunk driving,minor,5,1,0,,0.1,Minor
+410,Hyderabad,Telangana,17.218976,78.371587,2023-01-07,1:00,1,Saturday,1,rural,3,0,clear,high,28,high,weather,minor,3,0,0,,0.3,Minor
+411,Delhi,Delhi,28.857196,76.867687,2023-11-14,7:00,7,Tuesday,0,urban,5,1,rain,low,33,low,distraction,major,2,2,0,,0.45,Grievous/Major
+412,Hyderabad,Telangana,17.271903,78.256815,2022-03-15,3:00,3,Tuesday,0,rural,2,1,clear,high,40,low,drunk driving,fatal,3,3,0,,0.3,Fatal
+413,Delhi,Delhi,28.764338,77.016944,2024-11-23,18:00,18,Saturday,1,urban,4,1,fog,low,20,high,drunk driving,minor,5,0,1,,0.8,Minor
+414,Hyderabad,Telangana,17.501854,78.288515,2022-02-03,18:00,18,Wednesday,0,rural,3,1,fog,low,31,high,weather,minor,2,0,1,,0.8,Minor
+415,Hyderabad,Telangana,17.28964,78.564883,2022-07-24,0:00,0,Sunday,1,urban,6,1,rain,medium,26,low,drunk driving,fatal,2,2,0,,0.45,Fatal
+416,Kolkata,West Bengal,22.566676,88.461604,2022-02-20,19:00,19,Sunday,1,highway,4,0,rain,medium,18,high,distraction,minor,5,5,1,,0.6,Minor
+417,Chandigarh,Punjab,30.713438,76.79876,2024-05-14,17:00,17,Tuesday,0,highway,3,1,clear,high,25,high,overspeeding,minor,5,2,1,,0.45,Minor
+418,Delhi,Delhi,28.67054,77.161424,2023-06-14,16:00,16,Wednesday,0,urban,3,1,fog,low,25,low,drunk driving,minor,3,1,0,,0.45,Minor
+419,Bangalore,Karnataka,12.917963,77.412591,2022-05-30,5:00,5,Monday,0,rural,5,0,fog,low,21,high,distraction,major,5,0,0,,0.65,Grievous/Major
+420,Hyderabad,Telangana,17.434443,78.569551,2024-03-15,0:00,0,Friday,0,highway,4,1,rain,medium,16,low,overspeeding,minor,5,5,0,,0.25,Minor
+421,Chennai,Tamil Nadu,12.808568,80.17975,2023-10-11,16:00,16,Friday,0,urban,5,1,clear,high,22,medium,distraction,minor,3,3,0,,0.1,Minor
+422,Chennai,Tamil Nadu,13.171356,80.145615,2022-09-09,5:00,5,Friday,0,rural,5,1,clear,high,40,low,distraction,minor,5,3,0,,0.1,Minor
+423,Hyderabad,Telangana,17.257354,78.220547,2022-08-07,10:00,10,Friday,0,urban,4,1,rain,medium,30,high,poor road,minor,2,2,1,,0.6,Minor
+424,Chennai,Tamil Nadu,13.087089,80.113956,2023-04-18,9:00,9,Tuesday,0,urban,3,1,rain,medium,38,high,distraction,minor,4,3,1,,0.6,Minor
+425,Mumbai,Maharashtra,18.927409,72.753023,2024-02-07,5:00,5,Tuesday,0,urban,1,1,rain,low,18,medium,poor road,major,2,1,0,,0.45,Grievous/Major
+426,Delhi,Delhi,28.608507,77.020263,2022-12-07,13:00,13,Tuesday,0,highway,6,0,rain,low,37,medium,distraction,minor,4,0,0,,0.45,Minor
+427,Chandigarh,Punjab,30.794258,76.895012,2023-09-23,16:00,16,Saturday,1,highway,2,0,rain,low,17,medium,overspeeding,minor,1,0,0,,0.45,Minor
+428,Pune,Maharashtra,18.41447,73.723653,2024-05-26,1:00,1,Sunday,1,urban,1,1,rain,medium,33,medium,weather,major,2,1,0,,0.25,Grievous/Major
+429,Chandigarh,Punjab,30.693733,76.792933,2022-12-16,12:00,12,Friday,0,rural,1,0,rain,low,34,high,overspeeding,minor,4,1,0,,0.65,Minor
+430,Pune,Maharashtra,18.637455,73.895355,2024-01-08,15:00,15,Thursday,0,highway,4,0,rain,medium,32,low,poor road,minor,5,3,0,,0.25,Minor
+431,Chennai,Tamil Nadu,12.994972,80.274334,2022-03-11,1:00,1,Thursday,0,highway,1,0,clear,high,23,medium,weather,major,1,0,0,,0.1,Grievous/Major
+432,Kolkata,West Bengal,22.602764,88.310036,2023-03-02,13:00,13,Friday,0,rural,1,1,rain,medium,31,high,overspeeding,major,3,2,0,,0.45,Grievous/Major
+433,Chennai,Tamil Nadu,12.822978,80.147682,2022-03-11,1:00,1,Thursday,0,rural,1,0,rain,low,15,medium,distraction,minor,5,4,0,,0.45,Minor
+434,Pune,Maharashtra,18.638974,73.854621,2025-04-14,7:00,7,Monday,0,rural,6,1,fog,low,23,low,drunk driving,minor,3,0,0,,0.45,Minor
+435,Bangalore,Karnataka,12.918688,77.421483,2023-11-29,14:00,14,Wednesday,0,highway,3,0,clear,high,22,high,drunk driving,minor,1,1,0,,0.3,Minor
+436,Mumbai,Maharashtra,19.292175,72.961276,2024-12-10,20:00,20,Saturday,1,rural,2,0,rain,medium,37,medium,distraction,minor,2,0,0,,0.25,Minor
+437,Kolkata,West Bengal,22.472822,88.343699,2022-08-03,12:00,12,Tuesday,0,urban,4,1,rain,medium,22,low,weather,major,5,2,0,,0.25,Grievous/Major
+438,Chandigarh,Punjab,30.606795,76.809552,2023-09-14,17:00,17,Thursday,0,highway,4,1,rain,medium,38,high,overspeeding,fatal,2,2,1,,0.8,Fatal
+439,Pune,Maharashtra,18.564599,73.799979,2023-02-02,20:00,20,Thursday,0,urban,2,0,clear,high,24,low,weather,minor,5,0,0,,0.1,Minor
+440,Kolkata,West Bengal,22.4837,88.332035,2022-11-02,20:00,20,Friday,0,highway,4,1,clear,high,17,medium,overspeeding,major,2,2,0,,0.1,Grievous/Major
+441,Chandigarh,Punjab,30.653134,76.792216,2023-02-12,22:00,22,Saturday,1,highway,3,0,clear,high,15,high,poor road,major,4,2,0,,0.3,Grievous/Major
+442,Chandigarh,Punjab,30.753571,76.72288,2022-09-22,3:00,3,Thursday,0,rural,2,0,fog,low,34,low,poor road,major,5,5,0,,0.45,Grievous/Major
+443,Kolkata,West Bengal,22.582338,88.4844,2024-08-28,18:00,18,Wednesday,0,urban,6,1,rain,low,24,high,overspeeding,minor,2,1,1,,0.8,Minor
+444,Chandigarh,Punjab,30.647499,76.822427,2025-03-20,18:00,18,Thursday,0,urban,2,0,fog,low,25,high,drunk driving,fatal,2,2,1,,1.0,Fatal
+445,Chennai,Tamil Nadu,12.929043,80.164165,2023-05-28,0:00,0,Sunday,1,rural,6,1,fog,low,25,low,distraction,minor,5,3,0,,0.45,Minor
+446,Delhi,Delhi,28.673621,77.237897,2025-09-03,14:00,14,Sunday,1,highway,2,0,rain,low,20,high,distraction,minor,5,4,0,,0.65,Minor
+447,Mumbai,Maharashtra,19.183549,72.70002,2022-10-20,17:00,17,Thursday,0,rural,3,0,fog,low,15,high,drunk driving,minor,1,0,1,,0.8,Minor
+448,Chandigarh,Punjab,30.736718,76.770756,2022-05-25,7:00,7,Wednesday,0,highway,1,0,rain,medium,33,high,overspeeding,minor,4,3,0,,0.45,Minor
+449,Kolkata,West Bengal,22.44045,88.280446,2024-05-19,22:00,22,Sunday,1,rural,3,1,fog,low,40,low,drunk driving,minor,3,0,0,,0.45,Minor
+450,Bangalore,Karnataka,13.001226,77.503201,2024-10-26,13:00,13,Saturday,1,rural,1,0,fog,low,32,medium,weather,minor,2,0,0,,0.45,Minor
+451,Pune,Maharashtra,18.672465,73.966679,2022-11-23,19:00,19,Wednesday,0,rural,6,1,rain,medium,33,high,overspeeding,minor,5,2,1,,0.6,Minor
+452,Delhi,Delhi,28.682106,77.222227,2023-04-13,15:00,15,Thursday,0,urban,4,1,rain,low,17,low,weather,minor,3,3,0,,0.45,Minor
+453,Mumbai,Maharashtra,18.901696,72.9801,2023-01-20,16:00,16,Friday,0,highway,5,1,fog,low,19,low,overspeeding,minor,2,1,0,,0.45,Minor
+454,Chennai,Tamil Nadu,12.873824,80.12014,2024-12-02,2:00,2,Monday,0,urban,6,0,clear,high,38,low,distraction,minor,3,2,0,,0.1,Minor
+455,Chennai,Tamil Nadu,13.125771,80.140205,2022-09-02,23:00,23,Wednesday,0,urban,4,1,rain,medium,15,low,weather,minor,3,3,0,,0.25,Minor
+456,Chandigarh,Punjab,30.719993,76.763111,2023-06-08,21:00,21,Sunday,1,highway,1,1,rain,low,20,medium,distraction,minor,5,0,0,,0.45,Minor
+457,Bangalore,Karnataka,12.893807,77.446713,2024-12-20,0:00,0,Friday,0,rural,6,1,fog,low,38,low,weather,minor,1,1,0,,0.45,Minor
+458,Chandigarh,Punjab,30.750424,76.750608,2024-12-17,2:00,2,Tuesday,0,rural,3,1,clear,high,21,low,overspeeding,major,2,1,0,,0.1,Grievous/Major
+459,Bangalore,Karnataka,13.010762,77.565505,2024-01-24,11:00,11,Wednesday,0,highway,1,0,rain,low,38,medium,distraction,minor,1,0,0,,0.45,Minor
+460,Mumbai,Maharashtra,19.1689,72.924685,2024-01-12,18:00,18,Sunday,1,rural,1,0,clear,high,22,medium,distraction,minor,1,0,1,,0.25,Minor
+461,Kolkata,West Bengal,22.613843,88.254254,2024-01-09,3:00,3,Sunday,1,rural,3,1,clear,high,40,low,drunk driving,minor,4,4,0,,0.1,Minor
+462,Kolkata,West Bengal,22.565839,88.272514,2022-11-14,11:00,11,Monday,0,highway,5,0,rain,medium,15,low,drunk driving,major,2,2,0,,0.25,Grievous/Major
+463,Chennai,Tamil Nadu,13.109903,80.151201,2022-03-29,19:00,19,Tuesday,0,rural,6,0,rain,medium,21,high,overspeeding,minor,1,1,1,,0.6,Minor
+464,Pune,Maharashtra,18.521858,73.880555,2022-05-08,15:00,15,Friday,0,rural,5,1,clear,high,18,medium,poor road,minor,4,3,0,,0.1,Minor
+465,Kolkata,West Bengal,22.564509,88.414116,2022-10-17,12:00,12,Monday,0,rural,3,0,clear,high,19,low,poor road,major,4,3,0,,0.1,Grievous/Major
+466,Hyderabad,Telangana,17.264223,78.582497,2024-02-24,23:00,23,Saturday,1,urban,6,1,fog,low,20,medium,weather,major,3,2,0,,0.45,Grievous/Major
+467,Kolkata,West Bengal,22.559989,88.4151,2024-10-18,12:00,12,Friday,0,urban,1,1,rain,medium,27,low,weather,minor,3,3,0,,0.25,Minor
+468,Chennai,Tamil Nadu,12.988869,80.247665,2023-11-21,20:00,20,Tuesday,0,urban,4,0,fog,low,24,medium,distraction,fatal,5,5,0,,0.65,Fatal
+469,Chandigarh,Punjab,30.738182,76.71504,2023-05-10,18:00,18,Thursday,0,rural,1,1,rain,low,32,high,drunk driving,fatal,2,2,1,,1.0,Fatal
+470,Hyderabad,Telangana,17.581124,78.474942,2022-10-13,17:00,17,Thursday,0,highway,3,1,rain,medium,34,high,overspeeding,minor,4,4,1,,0.6,Minor
+471,Pune,Maharashtra,18.633281,73.813585,2024-02-26,9:00,9,Monday,0,urban,4,0,rain,medium,28,high,overspeeding,minor,2,2,1,,0.6,Minor
+472,Bangalore,Karnataka,12.874319,77.560204,2024-08-22,21:00,21,Thursday,0,highway,5,1,clear,high,18,high,drunk driving,major,5,3,0,,0.3,Grievous/Major
+473,Kolkata,West Bengal,22.560204,88.468459,2024-09-02,2:00,2,Friday,0,urban,4,1,fog,low,34,low,poor road,major,4,4,0,,0.45,Grievous/Major
+474,Delhi,Delhi,28.778987,76.977514,2022-02-01,9:00,9,Sunday,1,rural,6,1,fog,low,20,high,drunk driving,major,4,1,1,,0.8,Grievous/Major
+475,Kolkata,West Bengal,22.631425,88.259076,2022-07-19,1:00,1,Tuesday,0,rural,2,0,clear,high,38,low,distraction,minor,1,1,0,,0.1,Minor
+476,Delhi,Delhi,28.848392,77.002975,2022-05-24,4:00,4,Tuesday,0,urban,6,1,fog,low,26,medium,poor road,minor,5,2,0,,0.45,Minor
+477,Mumbai,Maharashtra,18.829473,72.892258,2022-02-23,5:00,5,Wednesday,0,highway,6,1,rain,medium,21,medium,weather,fatal,4,4,0,,0.45,Fatal
+478,Pune,Maharashtra,18.660362,73.863866,2024-11-13,2:00,2,Wednesday,0,highway,1,0,fog,low,22,low,distraction,major,1,0,0,,0.45,Grievous/Major
+479,Delhi,Delhi,28.495456,77.064015,2024-10-28,4:00,4,Monday,0,rural,5,1,fog,low,36,low,distraction,fatal,5,5,0,,0.65,Fatal
+480,Kolkata,West Bengal,22.445287,88.427148,2024-05-05,9:00,9,Sunday,1,highway,5,0,fog,low,34,high,poor road,major,2,2,1,,0.8,Grievous/Major
+481,Hyderabad,Telangana,17.457398,78.207636,2023-12-26,3:00,3,Tuesday,0,urban,6,0,clear,high,28,low,weather,minor,2,0,0,,0.1,Minor
+482,Chennai,Tamil Nadu,12.839362,80.263658,2025-05-02,7:00,7,Wednesday,0,rural,1,0,rain,medium,34,medium,distraction,fatal,2,2,0,,0.45,Fatal
+483,Kolkata,West Bengal,22.651052,88.416992,2024-12-01,9:00,9,Friday,0,urban,2,0,rain,low,26,medium,weather,minor,5,4,1,,0.6,Minor
+484,Chennai,Tamil Nadu,13.077407,80.263691,2023-05-03,11:00,11,Sunday,1,urban,3,1,rain,low,28,medium,weather,minor,4,1,0,,0.45,Minor
+485,Kolkata,West Bengal,22.527311,88.256941,2023-12-15,0:00,0,Friday,0,highway,6,1,fog,low,27,low,drunk driving,minor,2,2,0,,0.45,Minor
+486,Mumbai,Maharashtra,19.158541,72.929406,2023-12-14,0:00,0,Thursday,0,urban,3,1,clear,high,16,low,poor road,minor,2,2,0,,0.1,Minor
+487,Bangalore,Karnataka,13.060177,77.527135,2024-09-03,21:00,21,Saturday,1,rural,5,1,fog,low,16,high,overspeeding,minor,4,2,0,,0.65,Minor
+488,Delhi,Delhi,28.506395,77.048485,2023-03-21,8:00,8,Tuesday,0,urban,1,1,fog,low,21,medium,poor road,minor,4,1,1,,0.6,Minor
+489,Pune,Maharashtra,18.460897,73.900804,2022-08-18,15:00,15,Thursday,0,rural,3,1,clear,high,18,low,poor road,fatal,3,3,0,,0.3,Fatal
+490,Chandigarh,Punjab,30.704397,76.872086,2023-01-20,22:00,22,Friday,0,highway,1,1,clear,high,28,high,overspeeding,minor,5,2,0,,0.3,Minor
+491,Hyderabad,Telangana,17.487653,78.541296,2023-08-16,1:00,1,Wednesday,0,highway,5,0,rain,low,39,low,drunk driving,minor,4,0,0,,0.45,Minor
+492,Delhi,Delhi,28.862528,76.882488,2023-11-08,4:00,4,Friday,0,urban,5,1,rain,medium,36,low,distraction,minor,1,0,0,,0.25,Minor
+493,Hyderabad,Telangana,17.539404,78.221201,2023-04-04,12:00,12,Tuesday,0,rural,1,0,fog,low,36,high,overspeeding,minor,1,0,0,,0.65,Minor
+494,Bangalore,Karnataka,13.03119,77.439954,2024-09-08,17:00,17,Friday,0,rural,1,1,rain,medium,28,high,drunk driving,major,1,1,1,,0.6,Grievous/Major
+495,Chennai,Tamil Nadu,13.004738,80.164282,2023-11-28,14:00,14,Tuesday,0,rural,2,1,rain,medium,21,medium,weather,minor,5,3,0,,0.25,Minor
+496,Pune,Maharashtra,18.408211,73.836077,2023-05-08,18:00,18,Saturday,1,highway,1,1,rain,medium,36,high,distraction,major,4,4,1,,0.6,Grievous/Major
+497,Hyderabad,Telangana,17.361712,78.279241,2022-08-26,22:00,22,Friday,0,rural,5,0,rain,medium,35,low,overspeeding,major,3,3,0,,0.25,Grievous/Major
+498,Bangalore,Karnataka,12.940417,77.683922,2022-04-16,17:00,17,Saturday,1,highway,6,0,rain,low,30,high,overspeeding,minor,4,0,1,,0.8,Minor
+499,Hyderabad,Telangana,17.310556,78.405671,2022-02-03,22:00,22,Wednesday,0,urban,1,0,clear,high,26,low,poor road,minor,1,0,0,,0.1,Minor

@@ -1,0 +1,321 @@
+{
+  "kpi": {
+    "totalAccidents": 2692,
+    "fatalities": 591,
+    "injured": 4616,
+    "casualties": 5182,
+    "avgCasualties": 1.92,
+    "highSeverityCount": 1263,
+    "hotspots": 21,
+    "potentialDuplicates": 15
+  },
+  "monthly": [
+    {
+      "month": "Jan",
+      "month_num": 1,
+      "accidents": 257,
+      "fatalities": 56,
+      "injured": 432
+    },
+    {
+      "month": "Feb",
+      "month_num": 2,
+      "accidents": 259,
+      "fatalities": 60,
+      "injured": 489
+    },
+    {
+      "month": "Mar",
+      "month_num": 3,
+      "accidents": 261,
+      "fatalities": 60,
+      "injured": 442
+    },
+    {
+      "month": "Apr",
+      "month_num": 4,
+      "accidents": 225,
+      "fatalities": 52,
+      "injured": 358
+    },
+    {
+      "month": "May",
+      "month_num": 5,
+      "accidents": 230,
+      "fatalities": 58,
+      "injured": 412
+    },
+    {
+      "month": "Jun",
+      "month_num": 6,
+      "accidents": 219,
+      "fatalities": 38,
+      "injured": 352
+    },
+    {
+      "month": "Jul",
+      "month_num": 7,
+      "accidents": 186,
+      "fatalities": 35,
+      "injured": 312
+    },
+    {
+      "month": "Aug",
+      "month_num": 8,
+      "accidents": 194,
+      "fatalities": 43,
+      "injured": 324
+    },
+    {
+      "month": "Sep",
+      "month_num": 9,
+      "accidents": 211,
+      "fatalities": 43,
+      "injured": 355
+    },
+    {
+      "month": "Oct",
+      "month_num": 10,
+      "accidents": 216,
+      "fatalities": 57,
+      "injured": 362
+    },
+    {
+      "month": "Nov",
+      "month_num": 11,
+      "accidents": 221,
+      "fatalities": 40,
+      "injured": 403
+    },
+    {
+      "month": "Dec",
+      "month_num": 12,
+      "accidents": 213,
+      "fatalities": 49,
+      "injured": 375
+    }
+  ],
+  "hourly": [
+    {
+      "hour": "00:00",
+      "hour_num": 0,
+      "accidents": 124
+    },
+    {
+      "hour": "01:00",
+      "hour_num": 1,
+      "accidents": 109
+    },
+    {
+      "hour": "02:00",
+      "hour_num": 2,
+      "accidents": 112
+    },
+    {
+      "hour": "03:00",
+      "hour_num": 3,
+      "accidents": 119
+    },
+    {
+      "hour": "04:00",
+      "hour_num": 4,
+      "accidents": 92
+    },
+    {
+      "hour": "05:00",
+      "hour_num": 5,
+      "accidents": 107
+    },
+    {
+      "hour": "06:00",
+      "hour_num": 6,
+      "accidents": 103
+    },
+    {
+      "hour": "07:00",
+      "hour_num": 7,
+      "accidents": 111
+    },
+    {
+      "hour": "08:00",
+      "hour_num": 8,
+      "accidents": 114
+    },
+    {
+      "hour": "09:00",
+      "hour_num": 9,
+      "accidents": 80
+    },
+    {
+      "hour": "10:00",
+      "hour_num": 10,
+      "accidents": 97
+    },
+    {
+      "hour": "11:00",
+      "hour_num": 11,
+      "accidents": 98
+    },
+    {
+      "hour": "12:00",
+      "hour_num": 12,
+      "accidents": 100
+    },
+    {
+      "hour": "13:00",
+      "hour_num": 13,
+      "accidents": 107
+    },
+    {
+      "hour": "14:00",
+      "hour_num": 14,
+      "accidents": 95
+    },
+    {
+      "hour": "15:00",
+      "hour_num": 15,
+      "accidents": 101
+    },
+    {
+      "hour": "16:00",
+      "hour_num": 16,
+      "accidents": 103
+    },
+    {
+      "hour": "17:00",
+      "hour_num": 17,
+      "accidents": 91
+    },
+    {
+      "hour": "18:00",
+      "hour_num": 18,
+      "accidents": 307
+    },
+    {
+      "hour": "19:00",
+      "hour_num": 19,
+      "accidents": 110
+    },
+    {
+      "hour": "20:00",
+      "hour_num": 20,
+      "accidents": 101
+    },
+    {
+      "hour": "21:00",
+      "hour_num": 21,
+      "accidents": 99
+    },
+    {
+      "hour": "22:00",
+      "hour_num": 22,
+      "accidents": 95
+    },
+    {
+      "hour": "23:00",
+      "hour_num": 23,
+      "accidents": 117
+    }
+  ],
+  "vehicles": [
+    {
+      "vehicle_type": "Heavy Commercial / Truck",
+      "count": 1355
+    },
+    {
+      "vehicle_type": "Two-Wheeler / Bike",
+      "count": 715
+    },
+    {
+      "vehicle_type": "Car / SUV",
+      "count": 534
+    },
+    {
+      "vehicle_type": "Auto-Rickshaw",
+      "count": 45
+    },
+    {
+      "vehicle_type": "Bus",
+      "count": 43
+    }
+  ],
+  "severity": [
+    {
+      "severity": "Minor",
+      "count": 1429
+    },
+    {
+      "severity": "Grievous/Major",
+      "count": 904
+    },
+    {
+      "severity": "Fatal",
+      "count": 359
+    }
+  ],
+  "causes": [
+    {
+      "cause": "Weather",
+      "count": 513
+    },
+    {
+      "cause": "Overspeeding",
+      "count": 503
+    },
+    {
+      "cause": "Distraction",
+      "count": 503
+    },
+    {
+      "cause": "Drunk Driving",
+      "count": 494
+    },
+    {
+      "cause": "Poor Road",
+      "count": 479
+    },
+    {
+      "cause": "Speed Variation",
+      "count": 132
+    },
+    {
+      "cause": "Traffic Congestion & Lane Violation",
+      "count": 68
+    }
+  ],
+  "roadTypes": [
+    {
+      "road_type": "Urban",
+      "count": 853
+    },
+    {
+      "road_type": "Rural",
+      "count": 823
+    },
+    {
+      "road_type": "Highway",
+      "count": 816
+    },
+    {
+      "road_type": "Urban Arterial",
+      "count": 200
+    }
+  ],
+  "sources": [
+    {
+      "source": "OPEN_ACCIDENT_DATASET",
+      "count": 2492
+    },
+    {
+      "source": "OPEN_MAHARASHTRA_TRAFFIC",
+      "count": 200
+    }
+  ],
+  "quality": {
+    "completeness": 100.0,
+    "valid_coords": 100.0,
+    "valid_dates": 100.0,
+    "category_consistency": 100.0,
+    "overall_quality": 100.0
+  }
+}

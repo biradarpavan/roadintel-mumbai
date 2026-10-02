@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "NCRB Accidental Deaths & Suicides in India (ADSI) 2023",
+    "provider": "National Crime Records Bureau / Open Government Data (OGD)",
+    "sourceType": "OFFICIAL_GOVERNMENT",
+    "year": "2023",
+    "url": "https://www.data.gov.in/catalog/accidental-deaths-suicides-india-adsi-2023",
+    "recordCount": 2840,
+    "status": "LOADED",
+    "lastUpdated": "2024-08-15"
+  },
+  {
+    "id": 2,
+    "name": "Open Maharashtra Traffic Dataset",
+    "provider": "Sanjaikumarrsk Open Dataset (GitHub)",
+    "sourceType": "THIRD_PARTY_OPEN",
+    "year": "2025",
+    "url": "https://github.com/sanjaikumarrsk/TRAFFIC-DATASET",
+    "recordCount": 1200,
+    "status": "LOADED",
+    "lastUpdated": "2025-02-10"
+  },
+  {
+    "id": 3,
+    "name": "Indian Road Accident Dataset for Spatial Analytics",
+    "provider": "Prashantsundar Open Dataset (GitHub)",
+    "sourceType": "THIRD_PARTY_OPEN",
+    "year": "2022-2025",
+    "url": "https://github.com/Prashantsundar/Indian-Road-Accident-Dataset-Analysis-2022-2025-Python---Jupyternotebook",
+    "recordCount": 2492,
+    "status": "LOADED",
+    "lastUpdated": "2025-01-20"
+  },
+  {
+    "id": 4,
+    "name": "Mumbai Police Public Advisory Checkpoints",
+    "provider": "Mumbai Police Traffic Branch (Public Reference)",
+    "sourceType": "OFFICIAL_GOVERNMENT",
+    "year": "2024",
+    "url": "https://mumbaipolice.gov.in/Ps_Ac?ps_id=71",
+    "recordCount": 38,
+    "status": "REFERENCED",
+    "lastUpdated": "2024-11-01"
+  }
+]
