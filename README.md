@@ -1,6 +1,6 @@
 # 🚨 RoadIntel Mumbai — Unified Road Accident Intelligence Platform
 
-> **24-Hour Hackathon Project** | Full-Stack Geospatial Intelligence System  
+> Full-Stack Geospatial Intelligence System  
 > Built with **React + Vite**, **Spring Boot 3**, **Python ML Pipeline**, and **H2/PostgreSQL**
 
 ---
