@@ -1,4 +1,4 @@
-# 🚨 RoadSafe Mumbai — Unified Road Accident Intelligence Platform
+# 🚨 RoadIntel Mumbai — Unified Road Accident Intelligence Platform
 
 > **24-Hour Hackathon Project** | Full-Stack Geospatial Intelligence System  
 > Built with **React + Vite**, **Spring Boot 3**, **Python ML Pipeline**, and **H2/PostgreSQL**
@@ -7,7 +7,7 @@
 
 ## 🎯 What This Does
 
-RoadSafe Mumbai is a **Unified Road Accident Data Integration & Geospatial Intelligence Platform** that:
+RoadIntel Mumbai is a **Unified Road Accident Data Integration & Geospatial Intelligence Platform** that:
 
 1. **Ingests** accident data from multiple heterogeneous sources (different schemas, formats, column names)
 2. **Cleans & Standardizes** into a canonical unified schema using Python
@@ -104,7 +104,7 @@ npm run dev
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│                    RoadSafe Mumbai                        │
+│                    RoadIntel Mumbai                        │
 ├──────────────────────────────────────────────────────────┤
 │                                                          │
 │  DATA SOURCES                                            │
@@ -248,4 +248,4 @@ Make sure `backend/src/main/resources/application-postgres.yml` has correct DB c
 
 ---
 
-*Built for Smart Cities Hackathon — Mumbai Road Safety Division*
+*Built for Smart Cities - Mumbai Road Safety Division*
